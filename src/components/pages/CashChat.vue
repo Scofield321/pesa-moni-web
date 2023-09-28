@@ -137,7 +137,7 @@
             </div>
             <img src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
-        <h2>Run any business Ads via our platform</h2>
+        <h2 class="modified-h2">Run any business Ads via our platform</h2>
         <div class="elearning-distance-learning1">
             <img src="https://images.pexels.com/photos/5077038/pexels-photo-5077038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             <div class="img-text1">
@@ -166,7 +166,7 @@
             </div>
             <img src="https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
-        <h2>Stay connected with everyone affordably</h2>
+        <h2 class="modified-h2">Stay connected with everyone affordably</h2>
         <div class="elearning-distance-learning1">
             <img src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             <div class="img-text1">
@@ -192,8 +192,8 @@
             <img src="https://images.pexels.com/photos/8353796/pexels-photo-8353796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
     </section >
-    <h2>Testimonies</h2>
-    <section class="cashcaht-testimonies">
+    <h2 class="modified-h2">Testimonies</h2>
+    <section class="cashchat-testimonies">
         <div>
             <video src="./video/cashchat-video-1.mp4" width="640" height="480" controls></video>
         </div>
@@ -205,8 +205,8 @@
         </div>
     </section>
     <h2>Step by step guideline about our system</h2>
-    <section class="cashcaht-testimonies">       
-        <div class="testimonies-content">
+    <section class="cashchat-testimonies">       
+        <div class="testimonies-content1">
             <h2>All what you need to know about CashChat</h2>
             <p>
                 A detailed video of CashChat, from all the servces to benefits. Change the way you think of social media, it's not only for having fun but also for earning.  
@@ -434,8 +434,7 @@ export default {
         width: 35rem;
         height: 15rem;
         background-color: rgb(245, 204, 211);
-        margin-left: 2rem;
-        margin-right:1rem ;
+        margin-left: 0;
         padding-right: 1rem ;
         border-radius: 10px;
     }
@@ -443,8 +442,6 @@ export default {
         width: 35rem;
         height: 15rem;
         background-color: rgb(245, 204, 211);
-        margin-left: 2rem;
-        margin-right:1rem ;
         padding-right: 1rem ;
         border-radius: 10px;
     }
@@ -529,16 +526,15 @@ other content starts here
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 50vh;
-    margin: 5rem 0 10rem 0;
+    margin: 5rem 0 10rem -1rem;
 }
 .elearning-distance-learning1{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    
+    grid-template-columns: 2fr 1fr;   
 }
 .elearning-distance-learning1 img, .elearning-distance-learning img{
     height: 28rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     margin-right: 0;
     width: 50rem;
 }
@@ -556,9 +552,8 @@ other content starts here
     width: 30rem;
 }
 .img-text1{
-    margin-top: 0;
-    margin-left:-1.4rem;
-    width: 29rem;
+    margin: 0 0 0 -4.4rem;
+    width: 32rem;
     height: 28rem;
 }
 .img-text{
@@ -586,25 +581,31 @@ other content starts here
 .elearning-distance-learning1 img{
     margin-right: -3rem;
 }
-
+.modified-h2{
+    padding-top: 3rem;
+}
 /* 
 ===============================
 other content stops here
 ===============================
 */
-.cashcaht-testimonies{
+.cashchat-testimonies{
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
-.cashcaht-testimonies video{
+.cashchat-testimonies video{
     margin: 3rem;
+    margin-left: 0;
 }
-.testimonies-content{
+.testimonies-content, .testimonies-content1{
     color: #fff;
-    margin: 6.5rem 1rem 0 2rem;
+    margin: 6.7rem 0 0 -3rem;
     background-color: #1a84c6;
-    height: 26.5rem;
-
+    height: 26.3rem;
+}
+.testimonies-content1{
+    margin-left: 0;
+    padding: 2rem
 }
 .testimonies-content h2{
     padding: 3rem;
