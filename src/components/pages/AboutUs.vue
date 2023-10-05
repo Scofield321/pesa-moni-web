@@ -11,7 +11,7 @@
            <router-link to="/about-us">About Us</router-link>
          </nav>
         <article>
-            <h1 class="animated-heading">With Pesamoni, You Can Make It.</h1>
+            <h1 class="flashing-paragraph">With Pesamoni, You Can Make It.</h1>
         </article>
         <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
     </div>
@@ -251,7 +251,7 @@ article h1{
     font-size: 5rem;
 }
 
-@keyframes slideIn {
+/* @keyframes slideIn {
   from {
     transform: translateX(-100%);
     opacity: 0;
@@ -260,11 +260,27 @@ article h1{
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
 /* Apply the animation to the heading */
-.animated-heading {
+/* .animated-heading {
   animation: slideIn 3s ease forwards;
+} */
+@keyframes flash {
+  0% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Completely transparent */
+  }
+  100% {
+    opacity: 1; /* Fully visible again */
+  }
+}
+
+/* Apply the flashing animation to the paragraph */
+.flashing-paragraph {
+  animation: flash 2s infinite; /* Animation name, duration, and repetition */
 }
 
 .contact-us-btn{
@@ -323,7 +339,7 @@ strategy starts here
     margin: 6rem 0;
 }
 .strategy-content{
-    margin-left:10rem ;
+    margin-left: 3rem ;
     background-color: #1a84c6;
     color: #fff;
     height: 22.5rem;
@@ -422,15 +438,17 @@ team starts starts here
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 1rem 1rem;
+    margin: -1rem 0 1rem 1rem;
     background-color: #fff;
     box-shadow: 4px 3px 5px gray;
     border-radius: 10px;
     padding-bottom: 6rem;
+    height: 2rem;
 }
 .img-content h4{
     color: #000;
     padding: 6px 4px 0 6px;
+    margin-top: 8rem;
 }
 .img-content p{
     color:#000;
@@ -446,8 +464,7 @@ team starts starts here
     }
     .sliding-cards .my-card1, .sliding-cards .my-card2, .sliding-cards .my-card3, .sliding-cards .my-card4 {
         height: 15rem;
-        margin-left: 2rem;
-        margin-right:1rem ;
+        margin:0 1rem 0 2rem;
         padding-right: 1rem ;
         border-radius: 10px;
     }

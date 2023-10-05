@@ -204,7 +204,7 @@
             </p>
         </div>
     </section>
-    <h2>Step by step guideline about our system</h2>
+    <h2 class="modified-h2">Step by step guideline about our system</h2>
     <section class="cashchat-testimonies">       
         <div class="testimonies-content1">
             <h2>All what you need to know about CashChat</h2>
@@ -212,7 +212,7 @@
                 A detailed video of CashChat, from all the servces to benefits. Change the way you think of social media, it's not only for having fun but also for earning.  
             </p>
         </div>
-        <div>
+        <div class="guildline-vid">
             <video src="./video/caashchat-description.mp4" width="640" height="480" controls></video>
         </div>
     </section>
@@ -327,7 +327,7 @@ export default {
         padding: 10px 30px;
         border: none;
         border-radius: 5px;
-        background-color: #1a84c6;
+        background-color: #8CC63F;
         position: fixed;
         right: 0;
         bottom: 0;
@@ -534,25 +534,24 @@ other content starts here
 }
 .elearning-distance-learning1 img, .elearning-distance-learning img{
     height: 28rem;
-    /* margin-left: 2rem; */
     margin-right: 0;
-    width: 50rem;
+    width: 48rem;
 }
 .elearning-distance-learning img{
     width: 50rem;
-    margin-left: 0;
+    margin-left: 1rem;
     height: 27rem;
 }
 
 .img-text1, .img-text{
-    background-color: #1a84c6;
+    background-color: #8CC63F;
     margin-top: .5rem;
     margin-right: 0;
     height: 28rem;
     width: 30rem;
 }
 .img-text1{
-    margin: 0 0 0 -4.4rem;
+    margin: 0 0 0 -3.4rem;
     width: 32rem;
     height: 28rem;
 }
@@ -583,6 +582,7 @@ other content starts here
 }
 .modified-h2{
     padding-top: 3rem;
+    color: #662d91;
 }
 /* 
 ===============================
@@ -597,11 +597,12 @@ other content stops here
     margin: 3rem;
     margin-left: 0;
 }
+
 .testimonies-content, .testimonies-content1{
     color: #fff;
-    margin: 6.7rem 0 0 -3rem;
-    background-color: #1a84c6;
-    height: 26.3rem;
+    margin: 6.5rem 0 0 -2rem;
+    background-color: #8CC63F;
+    height: 26.5rem;
 }
 .testimonies-content1{
     margin-left: 0;
@@ -615,6 +616,9 @@ other content stops here
 }
 h2{
     text-align: center;
+}
+.guildline-vid{
+    margin-left: 1rem;
 }
 
 /* media queries*/ 

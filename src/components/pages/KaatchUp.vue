@@ -36,6 +36,7 @@
             <!-- wave aniamtion ends here -->
             
         </div>   
+        <!-- other content starts from here -->
       <section class="other-content">
         <h2>Fundraise from anywhere in the World, with just few clicks</h2>
           <div class="elearning-distance-learning">
@@ -206,7 +207,8 @@
         padding: 0 2rem;
     }
     article{
-        margin: 6rem 8rem;
+        margin: 6rem  8rem;
+        padding-bottom: 2rem;
         color: #000; 
         background-color: #fff;    
         top: 0;
@@ -233,6 +235,9 @@
         background: #f3874f;
         color: white;
     }
+    .wavy{
+      margin-top: 25rem;
+    }
     .wavy .wave{
         position: absolute;
         bottom: -2rem;
@@ -243,20 +248,21 @@
         background-image: linear-gradient(45deg, #1a84c6, #56b4ee, #acd8f3), url(../../assets/pesateam/wave.png);
         background-size: 1000px 100px;
         margin-bottom: 1rem;
+        padding-top: 2rem;
     }
     .wavy .wave.wave1{
         animation: animate 10s linear infinite;
         z-index: 1000;
         opacity: 1;
         animation-delay: 0s;
-        bottom: 0;
+        /* bottom: 0; */
     }
     .wavy .wave.wave2{
         animation: animate2 5s linear infinite;
         z-index: 999;
         opacity: 0.5;
         animation-delay: -5s;
-        bottom: 10px;
+        bottom: 5px;
     }
     .wavy .wave.wave3{
         animation: animate 10s linear infinite;
@@ -299,6 +305,9 @@
   .other-content h2, .other-content p{
       color: white;
   }
+  .other-content h2{
+    margin-top: 1rem;
+  }
   .elearning-distance-learning{
       background-color: whitesmoke;
   }
@@ -326,7 +335,7 @@
       width: 20rem;
   }
   .img-text{
-      margin: 6rem 0 0 -3.5rem;
+      margin: 6rem 0 0 -2.0rem;
       background-color: #1a84c6;
       color: #fff;
       height: 25rem;
@@ -352,7 +361,7 @@
 
   }
   .img-text1{
-      margin: 6rem 0 0 2rem;
+      margin: 6rem 1rem 0 2rem;
       background-color: #fff;
       color: #000;
       height: 25rem;
@@ -373,7 +382,7 @@
   ===============================
   */
   .testimonies-content{
-    margin: 7rem -3.0rem 0 2rem;
+    margin: 7rem -2.0rem 0 2rem;
     background-color: #1a84c6;
     color: #fff;
     height: 26rem;
@@ -396,7 +405,7 @@
   h2{
     text-align: center;
     color: #fff;
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-weight: 500;
   }
   /* 
