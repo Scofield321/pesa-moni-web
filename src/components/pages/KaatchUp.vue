@@ -44,7 +44,7 @@
               <div class="img-text">
                   <h2>Kaatc-Up fundraising</h2>
                   <p>
-                      Kaatch-Up softens the process and all the hassels involved in raising funds from Friends, Family and everyone wherever in the world. You can raise funds for your business,occassions like baby shower, wedding, introduction and so many others..
+                      Kaatch-Up softens the process and all the hassels involved in raising funds from Friends, Family and everyone wherever in the world. You can raise funds for your business,occassions like baby shower, wedding, introduction and so many others.
                   </p>
               </div>
           </div>
@@ -243,7 +243,7 @@
         bottom: -2rem;
         left: 0;
         width: 100vw;
-        height: 95px;
+        height: 45px;
         background-position: center;
         background-image: linear-gradient(45deg, #1a84c6, #56b4ee, #acd8f3), url(../../assets/pesateam/wave.png);
         background-size: 1000px 100px;

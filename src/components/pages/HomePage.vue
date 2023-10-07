@@ -48,7 +48,7 @@
                           <div class="the-article">
                           <article>
                               <h2 class="animated-heading">Payments, Elearning Systems, Communication And Fun.</h2>
-                              <img src="https://images.pexels.com/photos/935835/pexels-photo-935835.jpeg?auto=compress&cs=tinysrgb&w=1000&h=750&dpr=1" alt="">
+                              <img class="phone-img" src="https://images.pexels.com/photos/935835/pexels-photo-935835.jpeg?auto=compress&cs=tinysrgb&w=1000&h=700&dpr=1" alt="">
                           </article>
                           <!-- <button>Get started <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></button> -->
                       </div>
@@ -94,28 +94,28 @@
                 <img src="https://images.pexels.com/photos/7621142/pexels-photo-7621142.jpeg?auto=compress&cs=tinysrgb&w=750&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>Payment Systems</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur laboriosam dolor accusantium inventore quae aliquid officia aperiam voluptatem eum beatae, ad ea, libero quasi optio temporibus in illum ipsa. Consectetur. </p>
+                  <p>Card payments using Stanbic Bank for Acquiring Card transaction over Card Not Present. Let us do the heavy lifting for you and your bank, we have all the resources to facilitae everything between you and the bank.. </p>
                 </div>
             </div>
             <div class="product-service-content">
                 <img src="https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&cs=tinysrgb&w=700&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>E-learning Systems</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati magnam voluptas minus suscipit amet dolor aliquam quibusdam! Officiis inventore sequi suscipit quaerat praesentium odio dolore, culpa tenetur maxime eveniet consequuntur. </p>
+                  <p>PESAMONI has an E-learning solution customized for any kind of school to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. </p>
                 </div>
             </div>
             <div class="product-service-content">
                 <img src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>Chat Systems</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolore dolor distinctio architecto quasi quidem facilis officia dicta! Maiores accusantium iusto, reiciendis eius placeat non odit commodi ea itaque magnam. </p>
+                  <p>We empower all those who want easy and secure communication in personal chats at free cost. All the chat have End-to-End Encryptio (E2EE),NOo one will be able to read yourr chat not even company employees </p>
                 </div>
             </div>
             <div class="product-service-content">
                 <img src="https://images.pexels.com/photos/6328941/pexels-photo-6328941.jpeg?auto=compress&cs=tinysrgb&w=750&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>Fundraise From Anywhere</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero nam enim odit adipisci tenetur, possimus animi eveniet quis magni maiores distinctio voluptas fugiat deleniti saepe qui fuga illo non. </p>
+                  <p>We softens the process and all the hassles involved in raising funds from Friends, Family and everyone wherever in the world. You can raise funds for your business,occassions like baby shower, wedding, introduction and so many others. </p>
                 </div>
             </div>
         </div>
@@ -290,12 +290,15 @@ export default {
     #carouselExampleAutoplaying button{
       display: none;
     }
+    .wavy{
+      margin-top: 10rem;
+    }
     .wavy .wave{
         position: absolute;
         bottom: -2rem;
         left: 0;
         width: 100vw;
-        height: 95px;
+        height: 45px;
         background-position: center;
         background-image: linear-gradient(45deg,#f3874f ,#662d91, #1a84c6), url(../../assets/pesateam/wave.png);
         background-size: 1000px 100px;
@@ -350,7 +353,7 @@ export default {
 
     .phone {
         width: 290px; 
-        height: 500px; 
+        height: 430px; 
         background-color: #333; 
         border-radius: 25px;
         margin: 50px auto; 
@@ -365,6 +368,9 @@ export default {
         border-radius: 15px; 
         height: 100%;
         box-sizing: border-box;
+  }
+  .phone-img{
+    height: 10rem;
   }
 
 p {
@@ -506,6 +512,7 @@ p {
         color: white;
         z-index: 9999;
         background-color: #1a84c6;
+        margin-left: -1.5rem;
     }
 
     .our-business-content h2{

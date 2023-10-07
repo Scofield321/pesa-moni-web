@@ -203,6 +203,7 @@ Home page starts here
     top: -4rem;
     left: 0;
     animation: moveImage 10s infinite alternate;
+    filter: brightness(50%)
     
 }
 

@@ -14,12 +14,16 @@
             <div class="home-img">
                   <img src="https://images.pexels.com/photos/7433822/pexels-photo-7433822.jpeg?auto=compress&cs=tinysrgb&w=650&h=650&dpr=1" alt="home image">
             </div>
-            <div>
-                <article>
-                    <h2>Have Unlimited financial services with CASHCHAT</h2>
-                    <p>Make your dreams come true when using CASHCHAT services, we have the chat systems, financial systems, investment plan, just few clicks away</p>
-                    <img src="https://images.pexels.com/photos/8834116/pexels-photo-8834116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                </article>
+            <div class="phone">
+                <div class="screen">
+                    <div class="the-article">
+                        <article>
+                            <h2>Unlimited services with CASHCHAT</h2>
+                            <p>Make your dreams come true when using CASHCHAT services, we have the chat systems, financial systems, investment plan, just few clicks away</p>
+                            <img src="https://images.pexels.com/photos/8834116/pexels-photo-8834116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </article>
+                    </div>
+                </div>
                     <!-- <button>Learn more</button> -->
             </div>               
             <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
@@ -316,6 +320,7 @@ export default {
         background-color: #fff;     
         top: 0;
         height: 27rem;
+        border-radius: 5px;
     }
     article img{
       height: 11rem;
@@ -356,7 +361,7 @@ export default {
         bottom: -2rem;
         left: 0;
         width: 100vw;
-        height: 95px;
+        height: 45px;
         background-position: center;
         background-image: linear-gradient(45deg,#662d91,#a46ad1, #d9c2ec ), url(../../assets/pesateam/wave.png);
         background-size: 1000px 100px;
