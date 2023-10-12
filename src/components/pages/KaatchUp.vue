@@ -16,9 +16,9 @@
             </div>
             <div>
                 <article>
-                    <!-- <img src="https://play-lh.googleusercontent.com/Y8skkGEOTjgsRmb1fWavoBNavrPv5hXmoQe1Xg0z0LegJVc6GDoetFg_vji5V5rBaA=w240-h480-rw" alt=""> -->
                     <h2 class="colored-h2">Fundraise.Socialize</h2>
                     <p>Kaatch-Up has solved all the hassles of fundraising, entertainment, commucation and the way we make money, make money by status views.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.kaatchup&pcampaignid=web_share"><img src="https://res.cloudinary.com/african-centre-for-peace-and-human-life/image/upload/v1526381204/Pesamoni/get_it.png" alt="playstore-logo"></a>
                     <img src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     <!-- <button>Get started <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></button> -->
                 </article>
@@ -212,7 +212,13 @@
         color: #000; 
         background-color: #fff;    
         top: 0;
-        height: 25rem;
+        height: 28rem;
+    }
+    article a img{
+        height: 3rem;
+        width: 10rem;
+        padding-bottom: 1rem;
+        z-index: 9999900;
     }
     .colored-h2{
       color: #000;
@@ -220,7 +226,7 @@
     article img{
       height: 14rem;
       width: 22.95rem;
-      padding: 2rem 0 0 2rem;
+      padding: 0 0 0 2rem;
     }
     button{
         padding: 10px 30px;

@@ -111,7 +111,7 @@
                                     <img src="../../assets/pesateam/daphine2.jpg" alt="daphine sales">
                                     <div class="img-content">
                                         <h4>Kisakye Daphine</h4>
-                                        <p>Head of Sales & Marketing</p>
+                                        <p>Customer Care</p>
                                     </div>
                                 </div>
                             </div>

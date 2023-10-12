@@ -24,7 +24,7 @@
           </div>
           <div class="development-portal">
             <h3>DEVELOPERS PORTAL</h3>
-            <router-link to="documentation">Documentation</router-link>
+            <a href="https://documenter.getpostman.com/view/10119331/2s8Z6yWYF2">Documentation</a>
             <h3>SOCIAL MEDIA</h3>
             <div class="social-media-links">
               <a href="https://www.linkedin.com/in/your_linkedin_username" target="_blank">

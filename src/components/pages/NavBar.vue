@@ -1,6 +1,6 @@
 <template>
   <nav>
-           <router-link to="/pesamoni">Pesamoni</router-link>
+           <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
            <router-link to="/cashchat">CashChat</router-link>
            <router-link to="/education">Education</router-link>
            <router-link to="/kaatchup">Kaatch-Up</router-link>

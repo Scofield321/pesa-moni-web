@@ -5,11 +5,11 @@
                 <h1>NOT FOUND</h1>
                 <h3>ERROR : 404</h3>
                 <button @click="BackHome">Back Home</button>
-                <div class="phone">
+                <!-- <div class="phone">
                     <div class="screen">
                     <p>This is some text on the phone screen.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ export default {
     .home-wrapper{
         background-color: black;
         background-size: cover;
-        height: 200vh;
+        height: 100vh;
         color: #fff;       
     }
     .home-wrapper h1, .home-wrapper h3{

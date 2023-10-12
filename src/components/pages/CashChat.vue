@@ -20,7 +20,8 @@
                         <article>
                             <h2>Unlimited services with CASHCHAT</h2>
                             <p>Make your dreams come true when using CASHCHAT services, we have the chat systems, financial systems, investment plan, just few clicks away</p>
-                            <img src="https://images.pexels.com/photos/8834116/pexels-photo-8834116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                            <a href="https://play.google.com/store/apps/details?id=com.app.cashchat&pcampaignid=web_share"><img src="https://res.cloudinary.com/african-centre-for-peace-and-human-life/image/upload/v1526381204/Pesamoni/get_it.png" alt="playstore-logo"></a>
+                            <img  src="https://images.pexels.com/photos/8834116/pexels-photo-8834116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                         </article>
                     </div>
                 </div>
@@ -326,6 +327,11 @@ export default {
       height: 11rem;
       width: 22.95rem;
       padding-left: 2rem;
+    }
+    article a img{
+        height: 3rem;
+        width: 10rem;
+        padding-bottom: 1rem;
     }
     .contact-us-btn{
         margin: 3rem;
