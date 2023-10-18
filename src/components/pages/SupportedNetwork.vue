@@ -16,6 +16,13 @@
             </div>
              <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
     </div>
+    <section class="supported-networks">
+      <h2>These are the networks we support</h2>
+      <img src="https://1000logos.net/wp-content/uploads/2022/08/MTN-Logo-1994-.png" alt="mtn logo">
+      <img src="https://s3-ap-southeast-1.amazonaws.com/bsy/iportal/images/airtel-logo-white-text-horizontal.jpg" alt="airtel logo">
+      <img src="https://ik.imagekit.io/tp/20220202-m-pesa-logo.png" alt="mpesa logo">
+      <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/9108/bank-clipart-md.png" alt="banks">
+    </section>
     <my-footer></my-footer>
   </div>
 </template>
@@ -100,6 +107,17 @@ export default {
           cursor: pointer;
           background: rgb(241, 174, 50);
           color: #428bca;
+      }
+      .supported-networks{
+        text-align: center;
+      }
+      .supported-networks img{
+        height: 6rem;
+        padding: 1rem;
+      }
+      h2{
+        color: #1a84c6;
+        text-align: center;
       }
 
 </style>
