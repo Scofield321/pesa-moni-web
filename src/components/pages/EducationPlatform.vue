@@ -12,14 +12,15 @@
     </nav> -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">EDUCATION</a>
+        <h1 class="navbar-brand">EDUCATION</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/cashchat">CashChat</a>
@@ -109,6 +110,9 @@ Home page starts here
         background-color: whitesmoke;
         min-height: 100vh;
         overflow: hidden;
+    }
+    .container-fluid h1{
+        color: #fff;
     }
     /* nav{
         display: flex;
@@ -395,10 +399,14 @@ media queries*/
       nav h1{
           display: none;
       } */
+      nav{
+          height: 7rem;
+      }
+
       .education-page{
         height: 100%;
         width: 100%;
-        margin: 1rem 1rem 2rem -12rem;
+        margin: 5rem 1rem 2rem -12rem;
 
 }
     .education-page h1{
