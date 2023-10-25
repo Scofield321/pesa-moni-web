@@ -306,6 +306,9 @@ media queries*/
       nav h1{
           display: none;
       } */
+      nav{
+          height: 7rem;
+      }
       .education-page{
         height: 100%;
         width: 100%;
