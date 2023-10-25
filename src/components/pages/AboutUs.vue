@@ -269,19 +269,19 @@ article h1{
 } */
 @keyframes flash {
   0% {
-    opacity: 1; /* Fully visible */
+    opacity: 1; 
   }
   50% {
-    opacity: 0; /* Completely transparent */
+    opacity: 0; 
   }
   100% {
-    opacity: 1; /* Fully visible again */
+    opacity: 1; 
   }
 }
 
-/* Apply the flashing animation to the paragraph */
+/* Apply the flashing animation to the heading */
 .flashing-paragraph {
-  animation: flash 2s infinite; /* Animation name, duration, and repetition */
+  animation: flash 2s infinite; 
 }
 
 .contact-us-btn{

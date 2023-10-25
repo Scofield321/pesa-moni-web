@@ -1,16 +1,42 @@
 <template>
   <div class="education-container">
-    <button class="menu-toggle" v-if="!showMenu" @click="toggleMenu"><i class="fa fa-bars" aria-hidden="true"></i>
-</button>
-    <nav v-show="showMenu">
+    <!-- <button class="menu-toggle" v-if="!showMenu" @click="toggleMenu"><i class="fa fa-bars" aria-hidden="true"></i>
+</button> -->
+    <!-- <nav v-show="showMenu">
                <h1>EDUCATION</h1>
                <router-link to="/">Home</router-link>
-               <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
                <router-link to="/cashchat">CashChat</router-link>
                <router-link to="/education">Education</router-link>
                <router-link to="/kaatchup">Kaatch-Up</router-link>
                <router-link to="/about-us">About Us</router-link>
-    </nav>
+    </nav> -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EDUCATION</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <section class="education-page">
           <article class="education-home-content">
               <h1>Pesamoni and Education</h1>
@@ -57,18 +83,18 @@ export default {
     },
     data(){
     return{
-        showMenu: true,
-        showToggleButton: true
+        // showMenu: true,
+        // showToggleButton: true
       }
     },
     methods:{
       contactUs(){
         this.$router.push('/contact-us')
       },
-      toggleMenu(){
-          this.showMenu = !this.showMenu
-          this.showToggleButton = false;
-      }
+    //   toggleMenu(){
+    //       this.showMenu = !this.showMenu
+    //       this.showToggleButton = false;
+    //   }
     }
   }
 </script>
@@ -84,7 +110,7 @@ Home page starts here
         min-height: 100vh;
         overflow: hidden;
     }
-    nav{
+    /* nav{
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -107,7 +133,7 @@ Home page starts here
     nav h1{
         margin: 0 6rem 0 2rem;
         color:#1a84c6;
-      }
+      } */
     .education-page{
         background-color: transparent;
         height: 100vh;
@@ -159,12 +185,12 @@ Home page starts here
           background: #f3874f;
           color: white;
       }
-       .menu-toggle{ 
+       /* .menu-toggle{ 
          padding: 5px 1rem; 
          position: absolute;
          top: -2rem;
          left: -1rem;     
-      }
+      } */
 /* 
 ==========================
 home page ends here
@@ -249,7 +275,7 @@ media queries*/
       .menu-toggle {
         display: block; 
   }
-    nav{
+    /* nav{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -275,7 +301,7 @@ media queries*/
       }
       nav h1{
           display: none;
-      }
+      } */
       .education-page{
         height: 100%;
         width: 100%;
@@ -342,7 +368,7 @@ media queries*/
       .menu-toggle {
         display: block; 
   }
-    nav{
+    /* nav{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -368,7 +394,7 @@ media queries*/
       }
       nav h1{
           display: none;
-      }
+      } */
       .education-page{
         height: 100%;
         width: 100%;

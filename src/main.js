@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'jquery/src/jquery.js'
+import 'bootstrap/dist/js/bootstrap.min.js'
 import HomePage from './components/pages/HomePage.vue'
 import ContactUs from './components/pages/ContactUs.vue'
 import AboutUs from './components/pages/AboutUs.vue'

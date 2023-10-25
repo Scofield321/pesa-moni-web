@@ -11,11 +11,66 @@
                  <router-link to="/about-us">About Us</router-link>
               </nav>
               <div class="home-content">
-                  <h1>Products & Services</h1>
-                  <p>We shall soon put up content about PesaMoni products and services for you to choose from.</p>
+                  <h1 class="flashing-paragraph">Products & Services</h1>
+                  <p>Please contact our customer care for more, at inquiries@pesamoni.com, support@pesamoni.com, contact@pesamoni.com </p>
               </div>
                <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
       </div>
+      <!-- <section class="products-services">
+        <h2 class="title-h2">E-learning</h2>
+        <div class="e-learning">
+          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <div class="e-learning-content">
+            <h2>E-learning Systems</h2>
+            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
+          </div>
+        </div>
+
+      </section>
+      <section class="products-services">
+        <h2 class="title-h2">API for Mobile Networks</h2>
+        <div class="e-learning">
+          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <div class="e-learning-content">
+            <h2>E-learning Systems</h2>
+            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
+          </div>
+        </div>
+
+      </section>
+      <section class="products-services">
+        <h2 class="title-h2">Software Development</h2>
+        <div class="e-learning">
+          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <div class="e-learning-content">
+            <h2>E-learning Systems</h2>
+            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
+          </div>
+        </div>
+
+      </section>
+      <section class="products-services">
+        <h2 class="title-h2">API integrations for clients.</h2>
+        <div class="e-learning">
+          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <div class="e-learning-content">
+            <h2>E-learning Systems</h2>
+            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
+          </div>
+        </div>
+
+      </section>
+      <section class="products-services">
+        <h2 class="title-h2">Video Conferencing Systems</h2>
+        <div class="e-learning">
+          <img src="https://images.pexels.com/photos/3764496/pexels-photo-3764496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          <div class="e-learning-content">
+            <h2>E-learning Systems</h2>
+            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
+          </div>
+        </div>
+
+      </section> -->
       <my-footer></my-footer>
     </div>
   </template>
@@ -42,7 +97,7 @@
       .home-wrapper{
           background-color: black;
           background-size: cover;
-          height: 100vh;
+          height: 95vh;
           color: #fff;
       }
       nav{
@@ -78,6 +133,23 @@
           color: #fff;
           width: 45%;
       }
+      @keyframes flash {
+          0% {
+            opacity: 1; /* Fully visible */
+          }
+          50% {
+            opacity: 0; /* Completely transparent */
+          }
+          100% {
+            opacity: 1; /* Fully visible again */
+          }
+      }
+
+      /* Apply the flashing animation to the paragraph */
+      .flashing-paragraph {
+        animation: flash 2s infinite; /* Animation name, duration, and repetition */
+        font-size: 5rem;
+      }
       .contact-us-btn{
         position: fixed;
         right: 0;
@@ -101,5 +173,29 @@
             background: rgb(241, 174, 50);
             color: #428bca;
         }
-  
+        .e-learning{
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+          margin: 2.5rem 1rem;
+        }
+        .e-learning img{
+          width: 50rem;
+          height: 30rem;
+          padding: 2rem;
+          margin-left: -3.0rem;
+        }
+        .e-learning-content{
+          background-color: #1a84c6;
+          color: #fff;
+          padding: 2rem;
+          margin: 2rem;
+          height: 26rem;
+          margin-left: -5.5rem;
+        }
+        h2{
+          text-align: center;
+        }
+        .title-h2{
+          color: #1a84c6;
+        }
   </style>
