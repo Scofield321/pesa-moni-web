@@ -1,16 +1,41 @@
 <template>
   <div class="main-container">
       <!-- Home page starts here -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">PESAMONI</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
       <div class="home-wrapper">
           <!--Nav bar starts from here-->
-         <nav>
-           <h1>PESAMONI</h1>
-           <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
-           <router-link to="/cashchat">CashChat</router-link>
-           <router-link to="/education">Education</router-link>
-           <router-link to="/kaatchup">Kaatch-Up</router-link>
-           <router-link to="/about-us">About Us</router-link>
-         </nav>
           <!--Nav bar starts from here-->
                   <section class="home-content">
                     <div class="home-img">                      
@@ -121,9 +146,10 @@
         </div>
       </section>
         <!-- products are services ends here -->
-
+      <h1>Our Business</h1>
         <!-- our business starts from here -->
       <section class="our-business">
+        <!-- <h1>Our Business</h1> -->
             <img src="https://images.pexels.com/photos/4492129/pexels-photo-4492129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             <div class="our-business-content">
                 <h2>Our business</h2>
@@ -135,7 +161,10 @@
         <!-- our business ends from here -->
 
         <!-- Who we are starts here -->
+       
       <section class="who-we-are">
+        <h1>About Us</h1>
+        <!-- <h1>About Us</h1> -->
           <div class="who-we-are-content">
               <h2>Who we are</h2>
               <p>We are a software company focused on education, entertainment, payments, and communication.
@@ -150,10 +179,10 @@
           <div>
               <img src="https://images.pexels.com/photos/5668887/pexels-photo-5668887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
           </div>
-          <div class="link-to-about-us">
+      </section>
+      <div class="link-to-about-us">
             <router-link to="/about-us">Show more <i class="fa fa-angle-right" aria-hidden="true"></i></router-link>
           </div>
-      </section>
         <!-- Who we are stops here -->
         <!-- footer starts here -->
         <my-footer></my-footer>
@@ -190,6 +219,7 @@ export default {
     */
 .main-container{  
   background-color: whitesmoke;
+  overflow: hidden;
 }
     .home-wrapper{
         background-image: linear-gradient(45deg, #f3874f, #662d91, #1a84c6, #f3874f, #f48e21);
@@ -198,7 +228,7 @@ export default {
         animation: color 17s ease-in-out infinite;
         position: relative;
         height: 100vh;
-        margin-top: -5rem;      
+        margin-top: -9rem;      
     }
     @keyframes color{
       0%{
@@ -211,29 +241,8 @@ export default {
         background-position: 0 50%;
       }
     }
-    nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        width: 100%;        
-      }
-      nav a{
-        padding: 1rem;
-        color: #fff;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        margin: 0 6rem 0 2rem;
-        color: #fff;
-      }
     .home-content{
-      margin-top: 4rem;
+      margin-top: 11rem;
       display: grid;
       grid-template-columns: 2fr 1fr;
     }
@@ -266,13 +275,12 @@ export default {
     }
     article img{
       height: 12rem;
-      /* margin-left: 4rem; */
       width: 16.8rem;
     }
     .the-article{
       margin-top: -13rem;
     }
-    button{
+    /* button{
         margin: 7rem 2rem;
         padding: 10px 30px;
         border: none;
@@ -286,7 +294,24 @@ export default {
         cursor: pointer;
         background: #f3874f;
         color: white;
-    }
+    } */
+    .contact-us-btn{
+          margin: 3rem;
+          padding: 10px 30px;
+          border: none;
+          border-radius: 5px;
+          background-color: #1a84c6;
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          z-index: 9999;
+          color: white;
+      }
+      .contact-us-btn:hover{
+          cursor: pointer;
+          background: #f3874f;
+          color: white;
+      }
     #carouselExampleAutoplaying button{
       display: none;
     }
@@ -510,7 +535,6 @@ p {
     .our-business-content{
         height: 28rem;
         color: white;
-        z-index: 9999;
         background-color: #1a84c6;
         margin-left: -1.5rem;
     }
@@ -526,7 +550,6 @@ p {
       padding: 0 2rem;
       font-weight: 200;
     }
-
       /* 
     =========================================
     Our Business section ends here
@@ -543,9 +566,7 @@ p {
         grid-template-columns: 1fr 2fr;
         gap: 2rem;
         background-color: white;
-    }
-    .who-we-are img{
-        width: 100%;
+        margin-top: 7rem;
     }
     .who-we-are-content{
       color: #fff;
@@ -562,9 +583,13 @@ p {
       padding-top: 1rem;
       font-weight: 500;
     }
+    .who-we-are img{
+        width: 100%;
+        /* background-color: none; */
+    }
     a{
       text-decoration: none;
-      padding: 4rem;
+      /* padding: 4rem; */
       font-size: 1.3rem;
     }
     .link-to-about-us a{
@@ -572,6 +597,9 @@ p {
     }
     .link-to-about-us{
       margin-bottom: 3rem;
+    }
+    h1{
+      display: none;
     }
       /* 
     =========================================
@@ -582,10 +610,101 @@ p {
 media queries
 */
 
-/* media queries for mobile phone */
+/* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px){
   .main-container{
     width: 100%
   };
+  .home-wrapper{
+    margin-top: 2rem;
+  }
+  .home-content{
+      margin:.1rem;
+      display: flex;
+      flex-direction:column;
+    }
+    .home-img img {
+    height: 70vh;
+    width: 100vh;
+    margin-top: 5rem; 
+    padding-right: -5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .phone{
+      display: none;
+    }
+    /* 
+    ===================
+    New stories
+    ===================
+    */
+    .new-stories{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 33rem;
+    }
+    .new-stories h3 , .new-stories h5{
+      text-align: center;
+    }
+    .product-service-first-content{
+      grid-template-columns: 1fr;
+    }
+    .the-content{
+      width: 100%;
+    }
+    .the-content p{
+      text-align: center;
+      margin: 2rem;
+    }
+    .the-content h3{
+      text-align: center;
+    }
+    .product-service-content img{
+      margin: 1rem;
+    }
+     /* 
+    =========================================
+    Our Business section starts here
+    =========================================
+    */
+    .our-business{
+      display: flex;
+      flex-direction: column;
+    }
+    .our-business-content h2, .our-business-content p{
+      text-align: center;
+    }
+     /* 
+    =========================================
+    Who we are section starts here
+    =========================================
+    */
+    .who-we-are{
+      display: flex;
+      flex-direction: column;
+      margin-top: 25rem;
+    }
+    .who-we-are-content p, .who-we-are-content h2{
+      text-align: center;
+    }
+    .who-we-are-content p{
+      margin-right: 4rem;
+    }
+    .who-we-are-content:nth-child(1){
+      order: 2
+    }
+    .who-we-are-content:nth-child(2){
+      order: 1;
+    }
+    h1{
+      display: block;
+      text-align: center;
+    }
+    
+
 }
 </style>

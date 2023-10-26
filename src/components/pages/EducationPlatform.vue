@@ -1,15 +1,5 @@
 <template>
   <div class="education-container">
-    <!-- <button class="menu-toggle" v-if="!showMenu" @click="toggleMenu"><i class="fa fa-bars" aria-hidden="true"></i>
-</button> -->
-    <!-- <nav v-show="showMenu">
-               <h1>EDUCATION</h1>
-               <router-link to="/">Home</router-link>
-               <router-link to="/cashchat">CashChat</router-link>
-               <router-link to="/education">Education</router-link>
-               <router-link to="/kaatchup">Kaatch-Up</router-link>
-               <router-link to="/about-us">About Us</router-link>
-    </nav> -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <h1 class="navbar-brand">EDUCATION</h1>
@@ -92,10 +82,6 @@ export default {
       contactUs(){
         this.$router.push('/contact-us')
       },
-    //   toggleMenu(){
-    //       this.showMenu = !this.showMenu
-    //       this.showToggleButton = false;
-    //   }
     }
   }
 </script>
@@ -114,30 +100,6 @@ Home page starts here
     .container-fluid h1{
         color: #fff;
     }
-    /* nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-        width: 100%;        
-      }
-    nav a{
-        padding: 1rem;
-        color: #1a84c6;
-        text-decoration: none;
-        font-size: 1.3rem;
-      }
-    nav a:hover{
-        color: #f3874f;
-      }
-    nav h1{
-        margin: 0 6rem 0 2rem;
-        color:#1a84c6;
-      } */
     .education-page{
         background-color: transparent;
         height: 100vh;
@@ -158,7 +120,7 @@ Home page starts here
         width: 70%;
         margin: 0 0 4rem 12rem;
 }
-    button{
+    /* button{
         margin: 3rem;
         padding: 10px 30px;
         border: none;
@@ -171,7 +133,7 @@ Home page starts here
         cursor: pointer;
         background: #f3874f;
         color: white;
-    }
+    } */
     .contact-us-btn{
           margin: 3rem;
           padding: 10px 30px;
@@ -279,36 +241,6 @@ media queries*/
       .menu-toggle {
         display: block; 
   }
-    /* nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        position: unset;
-        z-index: 99999;
-        height: 19rem;
-        margin-top: 1rem;
-        margin-bottom: -4rem;
-        width: 100%; 
-        background-color: #1a84c6;      
-      }
-      nav a{
-        padding: .5rem;
-        color: #fff;
-        text-decoration: none;
-        font-size: 1rem;
-        width: 100%;
-        text-align: center;
-      } 
-      nav a:active{
-          color: #f3874f;
-          border: 1px solid #fff;
-      }
-      nav h1{
-          display: none;
-      } */
-      /* nav{
-          height: 7rem;
-      } */
       .education-page{
         height: 100%;
         width: 100%;
@@ -339,7 +271,7 @@ media queries*/
         font-size: 2.1rem;
 }
     .main-content-img{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         margin: 2rem;
 
 }
@@ -375,36 +307,6 @@ media queries*/
       .menu-toggle {
         display: block; 
   }
-    /* nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        position: unset;
-        z-index: 99999;
-        height: 19rem;
-        margin-top: 1rem;
-        margin-bottom: -4rem;
-        width: 100%; 
-        background-color: #1a84c6;      
-      }
-      nav a{
-        padding: .5rem;
-        color: #fff;
-        text-decoration: none;
-        font-size: 1rem;
-        width: 100%;
-        text-align: center;
-      } 
-      nav a:active{
-          color: #f3874f;
-          border: 1px solid #fff;
-      }
-      nav h1{
-          display: none;
-      } */
-      /* nav{
-          height: 7rem;
-      } */
 
       .education-page{
         height: 100%;
@@ -639,7 +541,7 @@ media queries*/
     .education-page h1{
         font-size: 1rem;
     }
-    nav h1{
+    /* nav h1{
           display: block;
       }
       nav{
@@ -666,7 +568,7 @@ media queries*/
       nav h1{
             margin: 0 6rem 0 2rem;
             color:#1a84c6;
-      }
+      } */
       .education-page{
             height: 100%;
             width: 100%;
