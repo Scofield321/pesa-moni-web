@@ -1,15 +1,34 @@
 <template>
   <div class="about-us-container">
     <div class="homepage">
-        <nav>
-            <h1>About</h1>
-           <router-link to="/">Home</router-link>
-           <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
-           <router-link to="/cashchat">CashChat</router-link>
-           <router-link to="/education">Education</router-link>
-           <router-link to="/kaatchup">Kaatch-Up</router-link>
-           <router-link to="/about-us">About Us</router-link>
-         </nav>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">Abour Us</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
         <article>
             <h1 class="flashing-paragraph">With Pesamoni, You Can Make It.</h1>
         </article>
@@ -22,7 +41,7 @@
                 began in 2016 with a view of transforming advanced technology to become ordinary 
                 for the normal person. We connect over 500,000 clients across East Africa. Our 
                 strength is in development of all kinds of software ranging from education, Finance,
-                Agriculture, Health, Telecommunications and Banking
+                Agriculture, Health, Telecommunications and Banking.
             </p>
         </div>
     </section>
@@ -203,8 +222,7 @@ Home page starts here
     top: -4rem;
     left: 0;
     animation: moveImage 10s infinite alternate;
-    filter: brightness(50%)
-    
+    filter: brightness(50%)   
 }
 
 @keyframes moveImage{
@@ -215,29 +233,6 @@ Home page starts here
         background-position: 100% 100%;
     }
 }
-nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin:1rem 0 3rem 3rem;
-        width: 100%;        
-      }
-      nav a{
-        padding: 1rem;
-        color: #1a84c6;
-        text-decoration: none;
-        font-size: 1.3rem;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        margin: 0 6rem 0 2rem;
-        color:#fff;
-      }
 
 article{
     width: 50%;
@@ -252,21 +247,6 @@ article h1{
     font-size: 5rem;
 }
 
-/* @keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-} */
-
-/* Apply the animation to the heading */
-/* .animated-heading {
-  animation: slideIn 3s ease forwards;
-} */
 @keyframes flash {
   0% {
     opacity: 1; 
@@ -400,9 +380,7 @@ h2{
     width: 18rem;
     margin: 0 5rem 4rem 2rem ;
 }
-/* .software-development img {
-    padding-right: 6.5rem;
-} */
+
 h3{
     color: #fff;
     margin:1.3rem;
@@ -531,64 +509,68 @@ team stops here
     top: -4rem;
     left: 0;   
 }
-    nav{
-        display: flex;
-        flex-direction: column;
-        width: 100%;  
-        background-color: #1a84c6;   
-        height: 24rem;   
-      }
-    nav a{
-        /* padding: 1rem; */
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-      }
-    nav a:hover{
-        color: #f3874f;
-      }
-    nav h1{
-       display: none;
-      }
-
+article h1{
+    font-size: 3rem;
+} 
+.about-pesamoni{
+    height: 17rem;
+    text-align: center;
+}
       /* strategy */
     .strategy{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
+        display: flex;
+        flex-direction: column;
+
       }
     .strategy-content{
-          margin-top:1rem ;
+          height: 20rem;
+          margin-left: -0.5rem;
     }
     .strategy-content p{
         padding: 1.5rem;
-        margin-top: -3rem;
+        margin-right: 4.5rem;
+       
     }
-    /* Products and services */
+    .strategy img{
+        width: 100%;
+    }
     .business-and-services{
         display: flex;
         flex-direction: column;
     }
     .heading-content{
-        height: 32rem;
+        height: 35rem;
     }
     .heading-content2, .heading-content3{
-        height: 17rem;
+        height: 20rem;
     }
     .heading-content p, .heading-content2 p, .heading-content3 p{
-        padding: 1.5rem;
-    }
-    .strategy img{
         padding: 1.5rem;
     }
     .e-learning img, .payments img, .software-development img{
         width: 100%;
     }
      /* team */
-     .team-img{
+    .card{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: .5rem; */
     }
+    .card .my-card1{
+        height: 25rem;
+    }
+    .card .my-card4{
+        height: 25rem;
+    }
+    .card .img-content{
+        margin-right:5rem;
+        width: 20rem;
+        /* margin-left: -1rem; */
+    }
+
+
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px) {
@@ -659,6 +641,7 @@ team stops here
     .strategy img{
         padding: 1.5rem;
     }
+    
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
