@@ -529,6 +529,7 @@ article h1{
     .strategy-content p{
         padding: 1.5rem;
         margin-right: 4.5rem;
+        text-align: center;
        
     }
     .strategy img{
