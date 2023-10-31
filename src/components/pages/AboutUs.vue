@@ -556,7 +556,7 @@ article h1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin: .5rem; */
+        margin: .5rem;
     }
     .card .my-card1{
         height: 25rem;
