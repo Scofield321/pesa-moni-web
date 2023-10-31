@@ -513,7 +513,7 @@ article h1{
     font-size: 3rem;
 } 
 .about-pesamoni{
-    height: 17rem;
+    height: 22rem;
     text-align: center;
 }
       /* strategy */
@@ -524,7 +524,7 @@ article h1{
       }
     .strategy-content{
           height: 20rem;
-          margin-left: -0.5rem;
+          margin-left: .9rem;
     }
     .strategy-content p{
         padding: 1.5rem;
