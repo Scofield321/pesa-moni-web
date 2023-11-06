@@ -38,7 +38,7 @@
                     <div class="the-article">
                         <article>
                             <h2>Unlimited services with CASHCHAT</h2>
-                            <p>Make your dreams come true when using CASHCHAT services, we have the chat systems, financial systems, investment plan, just few clicks away</p>
+                            <p class="home-p">Make your dreams come true when using CASHCHAT services, we have the chat systems, financial systems, investment plan, just few clicks away</p>
                             <a href="https://play.google.com/store/apps/details?id=com.app.cashchat&pcampaignid=web_share"><img src="https://res.cloudinary.com/african-centre-for-peace-and-human-life/image/upload/v1526381204/Pesamoni/get_it.png" alt="playstore-logo"></a>
                             <img  src="https://images.pexels.com/photos/8834116/pexels-photo-8834116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                         </article>
@@ -135,7 +135,7 @@
         <div class="elearning-distance-learning1">
             <img src="https://s3.us-east-1.amazonaws.com/victoria-university-elearning/website/images/intro_section_banner/487728ba-e0a1-4c7e-877f-df6e42e1ad86.jpg" alt="">
             <div class="img-text1">
-                <h2>E-Learning and Distance learning.</h2>
+                <h2 class="e-learnign-h2">E-Learning and Distance learning.</h2>
                 <p>
                     CashChat has managed to scale eLearning live video streaming 
                     which can help schools, universities to teach and exchange live 
@@ -695,11 +695,17 @@ h2{
         width: 30rem;
     }
     .img-text1 p{
-        margin-left: 6rem;
+        margin-left: 5rem;
         margin-right: 2rem;
     }
+    .img-text p{
+        margin-right: 1rem;
+    }
     .img-text1 h2{
-        padding-left: 6rem;
+        padding-left: 5rem;
+    }
+    .e-learnign-h2, .home-p{
+        margin-right: 3rem;
     }
     .elearning-distance-learning img{
         margin-bottom: 3rem;
