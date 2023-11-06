@@ -695,10 +695,11 @@ h2{
         width: 30rem;
     }
     .img-text1 p{
-        padding-left: 6rem;
+        margin-left: 6rem;
+        margin-right: 2rem;
     }
     .img-text1 h2{
-        padding-left: 8rem;
+        padding-left: 6rem;
     }
     .elearning-distance-learning img{
         margin-bottom: 3rem;
