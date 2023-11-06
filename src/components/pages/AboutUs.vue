@@ -530,6 +530,7 @@ article h1{
         padding: 1.5rem;
         margin-right: 4.5rem;
         text-align: center;
+        padding-right: 2rem;
        
     }
     .strategy img{

@@ -79,7 +79,7 @@ export default {
         width: 45%;
     }
     .contact-us-btn{
-      position: fixed;
+      position: fixed; 
       right: 0;
       bottom: 0;
       height: 3rem;

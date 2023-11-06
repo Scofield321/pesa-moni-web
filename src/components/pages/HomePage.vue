@@ -30,8 +30,6 @@
     </div>
   </nav>
       <div class="home-wrapper">
-          <!--Nav bar starts from here-->
-          <!--Nav bar starts from here-->
                   <section class="home-content">
                     <div class="home-img">                      
                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -275,21 +273,7 @@ export default {
     .the-article{
       margin-top: -13rem;
     }
-    /* button{
-        margin: 7rem 2rem;
-        padding: 10px 30px;
-        border: none;
-        border-radius: 5px;
-        background-color: #1a84c6;
-        position: absolute;
-        z-index: 9999;
-        color: white;
-    }
-    button:hover{
-        cursor: pointer;
-        background: #f3874f;
-        color: white;
-    } */
+    
     .contact-us-btn{
           margin: 3rem;
           padding: 10px 30px;

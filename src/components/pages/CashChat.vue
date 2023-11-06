@@ -1,15 +1,34 @@
 <template>
   <div class="cashchat-container">
     <div class="home-wrapper">
-            <nav>
-                <h1>CASHCHAT</h1>
-                <router-link to="/">Home</router-link>
-                <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
-                <router-link to="/cashchat">CashChat</router-link>
-                <router-link to="/education">Education</router-link>
-                <router-link to="/kaatchup">Kaatch-Up</router-link>
-                <router-link to="/about-us">About Us</router-link>
-            </nav>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">CASHCHAT</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
           <div class="home-content">
             <div class="home-img">
                   <img src="https://images.pexels.com/photos/7433822/pexels-photo-7433822.jpeg?auto=compress&cs=tinysrgb&w=650&h=650&dpr=1" alt="home image">
@@ -63,9 +82,7 @@
                                     <h2>CashChat services.</h2>
                                     <p>
                                       Cash Chat started in 2018 with a vision of transforming businesses to dominate digital world with new technology tools which can help grow different 
-                                      levels of business and industries and this ranges from hotel and hospitality, 
-                                      Telecommunications, Banking, Tours and Travels, Education sector, Health 
-                                      sector and many others.
+                                      levels of business and industries.
                                     </p>
                                 </div>
                             </div>
@@ -94,9 +111,7 @@
                                 <h2>Customer target.</h2>
                                 <p>
                                   Our clients are primarily in sub-Saharan region looking to reach out to their 
-                                  customers through our platform. We help our clients target, 
-                                  advertise and communicate with their ideal clients through our products and 
-                                  services embedded within the application
+                                  customers through our platform. We help our clients target.
                                 </p>
                             </div>
                             </div>
@@ -129,7 +144,7 @@
                 </p>
             </div>
         </div>
-        <h2>Make all payments and transactions with digital Wallet</h2>
+        <h2 class="gapped-h2">Make all payments and transactions with digital Wallet</h2>
         <div class="elearning-distance-learning">
             <div class="img-text">
                 <h2>Digital Wallet.</h2>
@@ -140,7 +155,9 @@
                     Business API for payments and collections.
                 </p>
             </div>
-            <img src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div>
+                <img src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
         </div>
         <h2 class="modified-h2">Run any business Ads via our platform</h2>
         <div class="elearning-distance-learning1">
@@ -171,7 +188,7 @@
             </div>
             <img src="https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
-        <h2 class="modified-h2">Stay connected with everyone affordably</h2>
+        <h2 class="gapped-h2">Stay connected with everyone affordably</h2>
         <div class="elearning-distance-learning1">
             <img src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             <div class="img-text1">
@@ -182,7 +199,7 @@
                 </p>
             </div>
         </div>
-        <h2>Invest in all your stocks and bonds in few clicks</h2>
+        <h2 class="gapped-h2">Invest in all your stocks and bonds in few clicks</h2>
         <div class="elearning-distance-learning">
             <div class="img-text">
                 <h2>Investment Plan</h2>
@@ -197,9 +214,9 @@
             <img src="https://images.pexels.com/photos/8353796/pexels-photo-8353796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
     </section >
-    <h2 class="modified-h2">Testimonies</h2>
+    <h2 class="gapped-h2">Testimonies</h2>
     <section class="cashchat-testimonies">
-        <div>
+        <div class="demonstration-vid">
             <video src="./video/cashchat-video-1.mp4" width="640" height="480" controls></video>
         </div>
         <div class="testimonies-content">
@@ -266,30 +283,9 @@ export default {
         background-position: 0 50%;
       }
     }
-    nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        width: 100%;        
-      }
-      nav a{
-        padding: 1rem;
-        color: #fff;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        margin: 0 6rem 0 2rem;
-        color: #fff;
-      }
       a{
       text-decoration: none;
-      padding: 4rem;
+      /* padding: 4rem; */
       font-size: 1.3rem;
     }
     .home-content{
@@ -441,14 +437,6 @@ export default {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-    .sliding-cards .my-card1, .sliding-cards .my-card2, .sliding-cards .my-card3, .sliding-cards .my-card4 {
-        width: 35rem;
-        height: 15rem;
-        background-color: rgb(245, 204, 211);
-        margin-left: 0;
-        padding-right: 1rem ;
-        border-radius: 10px;
-    }
     .carousel-item .my-card1, .carousel-item .my-card2, .carousel-item .my-card3, .carousel-item .my-card4 {
         width: 35rem;
         height: 15rem;
@@ -466,7 +454,6 @@ export default {
         background-color: rgb(195, 195, 241);
     }
     .carousel-inner{
-        /* display: flex; */
         width: 100vw;
     }
     .carousel-item h2, .carousel-item p {
@@ -595,6 +582,10 @@ other content starts here
     padding-top: 3rem;
     color: #662d91;
 }
+.gapped-h2{
+    padding-top:3rem;
+    color:#662d91;
+}
 /* 
 ===============================
 other content stops here
@@ -638,35 +629,28 @@ h2{
     .cashchat-container{
         overflow: hidden;
     }
-    nav{
-        display: flex;
-        flex-direction: column; 
-        /* min-height: 100%;
-        background-color: rgba(0, 0, 0, .7);       */
-      }
-      nav a{
-        padding: 1rem;
-        color: #fff;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        display: none;
-      }
-      .home-content{
+    .home-content{
       display: flex;
       flex-direction: column;
-      margin-top: 4rem;
-      width: 100%;
     }
-    .home-img img{
-      padding: 0 .5rem 1rem 0;
-      width: 30rem;
-    }
-    article p{
-        font-size: 1.2rem;
-    }
+    .home-img img {
+    display: none;
+  }
+    article{
+      width: 93%;
+      padding: 1rem;
+      height: 35rem;
+      margin: 1rem;
+      margin-top: -2rem;
+  }
+    article img{
+      width: 20rem;
+  }
+    article a img{
+      height:5rem;
+      width: 13rem;
+  }
+  /* Sliding cards starts here */
     .sliding-cards{
         display: flex;
         flex-direction: column;
@@ -674,34 +658,99 @@ h2{
     }
     .card{
         padding: 1rem;
-        padding-right: 3rem;
+        padding-right: 1rem;
     }
-    .elearning-distance-learning, .digital-wallet, .digital-wallet1 {
+.card{
+    height: 21rem;
+}
+.my-card2, .my-card3{
+    height: 23rem;
+}
+.elearning-distance-learning{
     display: flex;
     flex-direction: column;
+    height: 40rem;
 }
     .elearning-distance-learning1{
     display: flex;
     flex-direction: column;
     background-color: transparent;
+    height: 35rem;
 }
      .elearning-distance-learning1 p{
     color: black;
 }
     .elearning-distance-learning1 img{
-    width: 100%;
+    width: 25rem;
+    padding-bottom: 2rem;
+    height: 20rem;
+    margin-right: 2rem;
+    /* padding-right: 2rem; */
 }
-    .elearning-distance-learning1{
-    padding: 3rem;
-}
+    .img-text1, .img-text{
+        width: 25rem;
+        margin-bottom: 3rem;
+    }
+    .img-text1{
+        width: 30rem;
+    }
+    .img-text1 p{
+        padding-left: 6rem;
+    }
+    .img-text1 h2{
+        padding-left: 8rem;
+    }
+    .elearning-distance-learning img{
+        margin-bottom: 3rem;
+    }
     .elearning-distance-learning img, .digital-wallet img{
     width: 100%;
 }
-    .cashcaht-testimonies {
+    .img-text:nth-child(1){
+        order: 2;
+    }
+    .img-text:nth-child(2){
+        order: 1;
+    }
+
+    .cashchat-testimonies {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    margin-top: -3rem;
 }
+    .demonstration-vid{
+        width: 25rem;
+    }
+    .testimonies-content{
+        margin-top: -1.5rem;
+    }
+    .testimonies-content1:nth-child(1){
+        order: 2;
+    }
+    .testimonies-content1:nth-child(2){
+        order: 1;
+    }
+    .guildline-vid{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    video{
+        width: 100%;
+        height: auto;
+    }
+    .testimonies-content p{
+        margin-left: 3rem;
+    }
+    .testimonies-content1{
+        height: 15rem;
+        margin-top: -1rem;
+    }
+    .testimonies-content1 h2{
+        margin-bottom: 2rem;
+    }
+    .gapped-h2{
+        margin-top: -5rem;
+    }
 }
 
 </style>
