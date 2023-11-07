@@ -666,14 +666,12 @@ h2{
 .my-card2, .my-card3{
     height: 23rem;
 }
-.elearning-distance-learning{
+.elearning-distance-learning, .elearning-distance-learning1{
     display: flex;
     flex-direction: column;
     height: 40rem;
 }
     .elearning-distance-learning1{
-    display: flex;
-    flex-direction: column;
     background-color: transparent;
     height: 35rem;
 }
@@ -685,7 +683,6 @@ h2{
     padding-bottom: 2rem;
     height: 20rem;
     margin-right: 2rem;
-    /* padding-right: 2rem; */
 }
     .img-text1, .img-text{
         width: 25rem;
@@ -704,8 +701,11 @@ h2{
     .img-text1 h2{
         padding-left: 5rem;
     }
-    .e-learnign-h2, .home-p{
+    .e-learnign-h2{
         margin-right: 3rem;
+    }
+    .home-p{
+        margin-right: 2rem;
     }
     .elearning-distance-learning img{
         margin-bottom: 3rem;

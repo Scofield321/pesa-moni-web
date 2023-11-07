@@ -1,15 +1,34 @@
 <template>
     <div class="kaatch-container">
         <div class="home-wrapper">
-        <nav>
-           <h1>KAATCH-UP</h1>
-                <router-link to="/">Home</router-link>
-                <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
-                <router-link to="/cashchat">CashChat</router-link>
-                <router-link to="/education">Education</router-link>
-                <router-link to="/kaatchup">Kaatch-Up</router-link>
-                <router-link to="/about-us">About Us</router-link>
-        </nav>
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">KAATCH-UP</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
           <div class="home-content">
             <div class="home-img">
                   <img src="https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=620&h=750&dpr=1" alt="">
@@ -20,7 +39,6 @@
                     <p>Kaatch-Up has solved all the hassles of fundraising, entertainment, commucation and the way we make money, make money by status views.</p>
                     <a href="https://play.google.com/store/apps/details?id=com.kaatchup&pcampaignid=web_share"><img src="https://res.cloudinary.com/african-centre-for-peace-and-human-life/image/upload/v1526381204/Pesamoni/get_it.png" alt="playstore-logo"></a>
                     <img src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                    <!-- <button>Get started <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></button> -->
                 </article>
                     <!-- <button>Learn more</button> -->
             </div>               
@@ -38,7 +56,7 @@
         </div>   
         <!-- other content starts from here -->
       <section class="other-content">
-        <h2>Fundraise from anywhere in the World, with just few clicks</h2>
+        <!-- <h2>Fundraise from anywhere in the World, with just few clicks</h2> -->
           <div class="elearning-distance-learning">
               <img class="fund-rasing-img" src="https://i.ytimg.com/vi/77fzoKmfoR4/maxresdefault.jpg" alt="">
               <div class="img-text">
@@ -48,17 +66,19 @@
                   </p>
               </div>
           </div>
-          <h2>Keep in touch with all your folks and family.</h2>
+          <!-- <h2 class="gapped-h2">Keep in touch with all your folks and family.</h2> -->
           <div class="digital-wallet">
               <div class="img-text1">
                   <h2>Kaatch-Up we Catch up</h2>
                   <p>
-                      Kaatch-Up enables you to connect with all the friends, family, and stranger, just don't be bored when you have internet, just download our KaatchUp app from the playstore and the appstore, start socialising with ease, have some fun with buddies. .
+                      Kaatch-Up enables you to connect with all the friends, family, and stranger just download our KaatchUp app from the playstore and the appstore, start socialising with ease, have some fun with buddies. .
                   </p>
               </div>
-              <img src="https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
+              <div>
+                <img src="https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
+              </div>
           </div>
-          <h2>Keep the smile on your face with all the vibes and have fun.</h2>
+          <!-- <h2>Keep the smile on your face with all the vibes and have fun.</h2> -->
           <div class="elearning-distance-learning">
               <img src="https://images.pexels.com/photos/7148443/pexels-photo-7148443.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
               <div class="img-text">
@@ -68,7 +88,7 @@
                   </p>
               </div>
           </div>
-          <h2>Communcate with everyone via video calls and audio from anywhre</h2>
+          <!-- <h2>Communcate with everyone via video calls and audio from anywhere</h2> -->
           <div class="digital-wallet">
               <div class="img-text1">
                   <h2>Chat, Video call & Voice Call</h2>
@@ -79,7 +99,7 @@
               <img src="https://images.pexels.com/photos/5956949/pexels-photo-5956949.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
           </div>
       </section >
-      <h2>All you need to know about Kaatch in one place</h2>
+      <!-- <h2>All you need to know about Kaatch in one place</h2> -->
       <section class="kaatchup-testimonies">
           <div class="testimonies-content">
               <h2>Features of Kaatch-Up</h2>
@@ -88,7 +108,7 @@
               </p>
           </div>
           <div>
-              <video src="./video/kaatchup-video.mp4" width="640" height="480" controls></video>
+              <video class="guildline-vid" src="./video/kaatchup-video.mp4" width="640" height="480" controls></video>
           </div>
       </section>
       <my-footer></my-footer>
@@ -111,8 +131,7 @@
   
   <style scoped>
   .kaatch-container{
-    background-color: #428bca;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .home-wrapper{
         background-image: linear-gradient(45deg,#1a84c6,#1a84c6);
@@ -134,31 +153,10 @@
         background-position: 0 50%;
       }
     }
-    nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        width: 100%;        
-      }
-      nav a{
-        padding: 1rem;
-        color: #fff;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        margin: 0 6rem 0 2rem;
-        color: #fff;
-      }
 
       a{
       text-decoration: none;
-      padding: 4rem;
+      /* padding: 4rem; */
       font-size: 1.3rem;
     }
     .home-content{
@@ -209,8 +207,8 @@
     article{
         margin: 6rem  8rem;
         padding-bottom: 2rem;
-        color: #000; 
-        background-color: #fff;    
+        color: #fff; 
+        background-color: #1a84c6;    
         top: 0;
         height: 28rem;
     }
@@ -221,25 +219,12 @@
         z-index: 9999900;
     }
     .colored-h2{
-      color: #000;
+      color: #fff;
     }
     article img{
       height: 14rem;
       width: 22.95rem;
       padding: 0 0 0 2rem;
-    }
-    button{
-        padding: 10px 30px;
-        border: none;
-        border-radius: 5px;
-        background-color: #f3874f;
-        position: absolute;
-        z-index: 9999;
-    }
-    button:hover{
-        cursor: pointer;
-        background: #f3874f;
-        color: white;
     }
     .wavy{
       margin-top: 25rem;
@@ -318,7 +303,7 @@
       background-color: whitesmoke;
   }
   .elearning-distance-learning p, .elearning-distance-learning h2  {
-    color: black;
+    color: #fff;
   }
   .elearning-distance-learning, .digital-wallet{
       display: grid;
@@ -368,13 +353,10 @@
   }
   .img-text1{
       margin: 6rem 1rem 0 2rem;
-      background-color: #fff;
-      color: #000;
+      background-color: #1a84c6;
+      color: #fff;
       height: 25rem;
       width: 29rem;
-  }
-  .img-text1 p, .img-text1 h2{
-    color: #000;
   }
   .img-text1 h2{
     padding: 2rem;
@@ -420,4 +402,152 @@
   ===============================
   */
   
+  /* media queries*/ 
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .kaatch-container{
+        overflow: hidden;
+    }
+    .home-content{
+      display: flex;
+      flex-direction: column;
+      height: 90vh;
+    }
+    .home-img img {
+    display: none;
+  }
+    article{
+      width: 93%;
+      padding: 1rem;
+      height: 30rem;
+      margin: 1rem;
+      margin-top: -2rem;
+  }
+    article img{
+      width: 20rem;
+  }
+    article a img{
+      height:5rem;
+      width: 13rem;
+  }
+  .home-wrapper{
+    height: 90vh;
+    margin-bottom: -2rem;
+  }
+    .elearning-distance-learning, .digital-wallet{
+        display: flex;
+        flex-direction: column;
+        height: 50rem;
+        margin-bottom: 6rem;
+        background-color:transparent;
+    }
+    .elearning-distance-learning .img-text{
+      margin-top: -.5rem;
+    }
+    .elearning-distance-learning .img-text p{
+      margin-left:2rem ;
+    }
+    .digital-wallet p{
+    color: #fff;
+}
+    .digital-wallet{
+      height: 35rem;
+      margin-bottom: 2rem;
+}
+    .digital-wallet .img-text1{
+      width: 100%;
+      margin-right:3rem;
+      margin-top: -2rem;
+
+    }
+    .digital-wallet img{
+    width: 25rem;
+    padding-bottom: 2rem;
+    height: 20rem;
+    margin: -2.5rem 2rem 1rem;
+}
+    .img-text1, .img-text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+        width: 25rem;
+        margin-bottom: 3rem;
+    }
+    .img-text1{
+      margin-left: -1rem;
+      /* width: 45rem; */
+    }
+    .img-text1 p{
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+    .img-text p{
+        margin-right: 1rem;
+    }
+    .img-text1 h2{
+      text-align: center;
+        /* padding-left: 5rem; */
+    }
+    .e-learnign-h2{
+        margin-right: 3rem;
+    }
+    .home-p{
+        margin-right: 2rem;
+    }
+    .elearning-distance-learning img{
+        margin-bottom: 3rem;
+    }
+    .elearning-distance-learning img, .digital-wallet img{
+    width: 100%;
+}
+    .img-text:nth-child(1){
+        order: 2;
+    }
+    .img-text:nth-child(2){
+        order: 1;
+    }
+
+    .kaatchup-testimonies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+    .testimonies-content{
+        margin-top: -1.5rem;
+        width: 26rem;
+        margin-left:-.9rem ;
+    }
+    .testimonies-content:nth-child(1){
+        order: 2;
+    }
+    .testimonies-content:nth-child(2){
+        order: 1;
+    }
+    .img-text1:nth-child(1){
+      order: 2;
+    }
+    .img-text1:nth-child(2){
+      order: 1;
+    }
+    .guildline-vid{
+        max-width: 100%;
+        overflow: hidden;
+        width: 25rem;
+    }
+    video{
+        width: 100%;
+        height: auto;
+    }
+    .testimonies-content p{
+        margin-left: 1rem;
+    }
+    .gapped-h2{
+        margin-top: -5rem;
+        width: 20rem;
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+}
   </style>
