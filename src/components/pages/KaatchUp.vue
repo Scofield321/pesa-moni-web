@@ -534,7 +534,7 @@
     .guildline-vid{
         max-width: 100%;
         overflow: hidden;
-        width: 25rem;
+        /* width: 25rem; */
     }
     video{
         width: 100%;
