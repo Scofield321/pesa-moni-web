@@ -135,13 +135,17 @@ export default {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: -1.2rem;
+      margin-top: -5.2rem;
       height: 80rem;
+    }
+    img{
+      margin-bottom: -3rem;
     }
     .contact-info{
         width: 99%;
-        padding-bottom: 1rem;
+        padding-bottom: -1rem;
         height: 35rem;
+        margin-bottom: -4rem;
 }
     .email-address{
     padding-top:4rem;
@@ -154,15 +158,17 @@ export default {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: -1.2rem;
+      margin-top: -4.2rem;
       height: 80rem;
     }
     .contact-info{
         width: 99%;
-        padding-bottom: 1rem;
+        margin-bottom: -4rem;
         height: 35rem;
-        /* text-align: center; */
-}
+    }
+    img{
+        margin-bottom: -3rem;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -171,11 +177,15 @@ export default {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: -1.2rem;
+      margin-top: -4.2rem;
       height: 80rem;
     }
     img{
       width: 99vw;
+      margin-bottom: -3rem;
+    }
+    .contact-info{
+        margin-bottom: -4rem;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -184,14 +194,20 @@ export default {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
-      margin-top: -1.2rem;
-      height: 98vh;
+      justify-content: center; 
+      margin-top:4rem;
+      height: 90vh;
     }
     img{
       width: 50rem;
-      height: 32.7rem;
-      margin-top: 4rem;
+      height: 33.7rem;
+      margin-top: -3rem;
     }
+    .contact-info{
+    margin: 1.5rem 2rem 2rem 2rem;
+    width: 30rem;
+    height: 33.7rem;
+    padding-bottom: 3rem;
+}
 }
 </style>
