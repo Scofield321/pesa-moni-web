@@ -579,7 +579,7 @@ article h1{
     .about-us-container{
     overflow: hidden;
     }
-    nav{
+    /* nav{
         display: flex;
         flex-direction: row;
         width: 100%;    
@@ -594,7 +594,7 @@ article h1{
       }
       nav h1{
        display: none;
-      }
+      } */
       /* about section */
       .about-pesamoni p{
         font-size: 1.5rem;
@@ -651,9 +651,9 @@ article h1{
     .about-us-container{
     overflow: hidden;
     }
-      nav h1{
+      /* nav h1{
        display: none;
-      }
+      } */
       .about-pesamoni h1{
           text-align: center;
       }
@@ -683,9 +683,9 @@ article h1{
         .about-us-container{
             overflow: hidden;
     }
-        nav h1{
+        /* nav h1{
             display: none;
-      }
+      } */
         .about-pesamoni p{
             font-size: 1.2rem;
       }
@@ -726,9 +726,9 @@ article h1{
         .about-us-container{
             overflow: hidden;
     }
-        nav h1{
+        /* nav h1{
             display: block;
-      }
+      } */
         .about-pesamoni p{
             font-size: 1rem;
       }
