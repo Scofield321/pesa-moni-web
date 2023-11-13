@@ -198,8 +198,8 @@ export default {
   }
   .more-home-content{
     left: -.1rem;
-    top:18rem;
-    margin-bottom: -2rem;
+    top:16rem;
+    /* margin-bottom: -2rem; */
   }
   .policies{
     width: 20rem;
