@@ -237,6 +237,25 @@ export default {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .home-wrapper{
+        background-size: contain;
+        height: 90vh;
+        color: #fff;
+        margin-top: -3rem;
+    }
+    .more-home-content{
+    position: absolute;
+    top: 45rem;
+    left: 15rem;
+    }
+  .policies{
+          width: 55rem;
+          min-height: 100vh;  
+          margin: 6rem 5rem       
+      }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home-wrapper{
         background-size: cover;
         height: 90vh;
         color: #fff;

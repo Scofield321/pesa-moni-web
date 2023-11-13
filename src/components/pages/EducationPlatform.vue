@@ -541,34 +541,6 @@ media queries*/
     .education-page h1{
         font-size: 1rem;
     }
-    /* nav h1{
-          display: block;
-      }
-      nav{
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-direction: row;
-            position: absolute;
-            z-index: 99999;
-            height: 4rem;
-            margin-top: 1rem;
-            margin-bottom: 3rem;
-            width: 100%;        
-      }
-      nav a{
-            padding: 1rem;
-            color: #1a84c6;
-            text-decoration: none;
-            font-size: 1.3rem;
-      }
-      nav a:hover{
-            color: #f3874f;
-      }
-      nav h1{
-            margin: 0 6rem 0 2rem;
-            color:#1a84c6;
-      } */
       .education-page{
             height: 100%;
             width: 100%;
