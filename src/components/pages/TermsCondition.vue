@@ -1,17 +1,36 @@
 <template>
     <div class="terms-condition-container">
         <div class="home-wrapper">
-        <nav>
-               <h1>Terms & Conditions</h1>
-               <router-link to="/">Home</router-link>
-               <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
-               <router-link to="/cashchat">CashChat</router-link>
-               <router-link to="/education">Education</router-link>
-               <router-link to="/kaatchup">Kaatch-Up</router-link>
-               <router-link to="/about-us">About Us</router-link>
-            </nav>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">Terms and Conditions</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
             <div class="home-content">
-                <h1>TERMS & CONDITIONS</h1>
+                <!-- <h1>TERMS & CONDITIONS</h1> -->
             </div>
             <div class="more-home-content">
                 <p>Creating avenues for change. <br> Send and receive money easily.</p>
@@ -168,35 +187,13 @@ export default {
     overflow: hidden;
 }
 .home-wrapper{
-        background-color: black;
+        background-image: url(https://images.pexels.com/photos/4065405/pexels-photo-4065405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         background-size: cover;
         height: 80vh;
         color: #fff;
     }
-    nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        width: 100%;        
-      }
-      nav a{
-        padding: 1rem;
-        color: #fff;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        margin: 0 6rem 0 2rem;
-        color: #1a84c6;
-      }
       a{
       text-decoration: none;
-      padding: 4rem;
       font-size: 1.3rem;
     }
     .home-content{
@@ -256,4 +253,95 @@ export default {
       h5{
           font-weight: 300;
       }
+         /* media queries*/ 
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .terms-condition-container{
+    overflow-x:hidden;
+    width: 100vw;
+  }
+  .home-wrapper{
+    background-color:#fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: -12rem;
+  }
+  .more-home-content{
+    left: -.1rem;
+    top:16rem;
+    /* margin-bottom: -2rem; */
+  }
+  .terms-condyions{
+    width: 20rem;
+    margin: -2rem .5rem 2rem .5rem;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .home-wrapper{
+    background-color:#fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: -12rem;
+  }
+  .more-home-content{
+    left: 10rem;
+    top:35rem;
+    margin-bottom: -2rem;
+    margin: auto;
+  }
+  .terms-condyions{
+    width: 45rem;
+    margin: -4rem .5rem 2rem .5rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .terms-condyions{
+    width: 70rem;
+    margin: -4rem .5rem 2rem .5rem;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home-wrapper{
+        background-size: contain;
+        height: 90vh;
+        color: #fff;
+        margin-top: -3rem;
+    }
+    .more-home-content{
+    position: absolute;
+    top: 45rem;
+    left: 15rem;
+    }
+    .terms-condyions{
+          width: 55rem;
+          min-height: 100vh;  
+          margin: 6rem 5rem       
+      }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home-wrapper{
+        background-size: cover;
+        height: 90vh;
+        color: #fff;
+        margin-top: 3rem;
+    }
+    .more-home-content{
+    position: absolute;
+    top: 32rem;
+    left: 20rem;
+    }
+    .terms-condyions{
+          background-color: #fff;
+          min-height: 100vh;  
+          margin: 6rem 8rem       
+      }
+}
 </style>

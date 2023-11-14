@@ -261,6 +261,11 @@ export default {
         color: #fff;
         margin-top: 3rem;
     }
+    .more-home-content{
+    position: absolute;
+    top: 32rem;
+    left: 20rem;
+    }
   .policies{
           background-color: #fff;
           min-height: 100vh;  

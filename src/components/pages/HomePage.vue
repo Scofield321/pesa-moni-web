@@ -1,10 +1,9 @@
 <template>
   <div class="main-container">
       <!-- Home page starts here -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">PESAMONI</h1>
-      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -213,6 +212,9 @@ export default {
 .main-container{  
   background-color: whitesmoke;
   overflow: hidden;
+}
+.navbar-dark{
+  background-color: #1a84c6;
 }
     .home-wrapper{
         background-image: linear-gradient(45deg, #f3874f, #662d91, #1a84c6, #f3874f, #f48e21);
@@ -603,13 +605,16 @@ media queries
       flex-direction:column;
     }
     .home-img img {
-    height: 70vh;
-    width: 100vh;
+    height: 50vh;
+    width: 100vw;
     margin-top: 5rem; 
     padding-right: -5rem; 
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .wavy{
+    margin-top: -10rem;
   }
     .phone{
       display: none;
