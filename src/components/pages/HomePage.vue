@@ -607,7 +607,7 @@ media queries
     .home-img img {
     height: 50vh;
     width: 100vw;
-    margin-top: 5rem; 
+    margin-top: 13.5rem; 
     padding-right: -5rem; 
     display: flex;
     align-items: center;
