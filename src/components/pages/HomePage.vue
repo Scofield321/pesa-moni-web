@@ -643,8 +643,9 @@ media queries
     height: 2rem;
 }
 .my-article h1{
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     margin-top: -14rem;
+    padding: 1rem;
 }
 
 @keyframes flash {
