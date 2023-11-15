@@ -145,11 +145,11 @@ a{
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 60rem;
+      height: 58rem;
     }
     img{
       margin-bottom: -3rem;
-      margin-top: -3rem;
+      margin-top: -8rem;
     }
     .contact-info{
         width: 99%;
