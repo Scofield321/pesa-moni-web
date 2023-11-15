@@ -92,11 +92,18 @@ export default {
         grid-template-columns: 1fr 1fr;
         height: 98vh;
     }
-    img{
+    /* img{
       width: 50rem;
       height: 32.7rem;
       margin-top: 4rem;
-    }
+    } */
+    
+    img {
+            max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
     h3, h5{
         color: black;
         margin: 6rem  20rem 2rem;
