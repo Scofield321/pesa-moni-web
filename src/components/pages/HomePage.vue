@@ -641,11 +641,10 @@ media queries
     padding: 2rem;
     font-weight: 900;
     height: 2rem;
-    width: 25rem;
 }
 .my-article h1{
-    font-size: 3rem;
-    margin-top: -15rem;
+    font-size: 2.8rem;
+    margin-top: -14rem;
 }
 
 @keyframes flash {
