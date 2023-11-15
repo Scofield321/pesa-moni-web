@@ -620,15 +620,11 @@ media queries
     }
     .home-img img {
     height: 100vh;
-    /* width: 100vw; */
     padding: 11.5rem .5rem 1rem .5rem; 
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     max-width: 100%;
-            height: auto; 
-            display: block; 
-            margin: 0 auto; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
   }
   .wavy{
     margin-top: -10rem;
@@ -648,7 +644,7 @@ media queries
 }
 .my-article h1{
     font-size: 3rem;
-    margin-top: -20rem;
+    margin-top: -15rem;
 }
 
 @keyframes flash {
