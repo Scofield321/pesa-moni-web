@@ -92,11 +92,6 @@ export default {
         grid-template-columns: 1fr 1fr;
         height: 98vh;
     }
-    /* img{
-      width: 50rem;
-      height: 32.7rem;
-      margin-top: 4rem;
-    } */
     
     img {
             max-width: 100%;
@@ -160,7 +155,7 @@ a{
         width: 99%;
         padding-bottom: -1rem;
         height: 35rem;
-        margin-bottom: -4rem;
+        margin-bottom: -15rem;
 }
     .email-address{
     padding-top:4rem;
