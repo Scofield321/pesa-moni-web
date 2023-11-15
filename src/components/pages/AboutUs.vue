@@ -46,7 +46,9 @@
         </div>
     </section>
     <section class="strategy">
-        <img src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
+        <div>
+            <img src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
+        </div>
         <div class="strategy-content">
             <h2>Strategy</h2>
             <p>We combine real and the digital worlds. Our strategy is powered by the long term. addressing the biggest challenges of our generation; old fashioned schooling, backwards communication, analog payment systems</p>
@@ -496,6 +498,12 @@ team starts starts here
       font-size: 1.3rem;
       color: #fff;
     }
+    img {
+            max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
 /* 
 =================================
 team stops here
@@ -532,17 +540,19 @@ team stops here
       }
     .strategy-content{
           height: 20rem;
-          margin-left: .9rem;
+          width: auto;
+          margin:2rem .5rem 0 .9rem;
+          /* padding-right: 2rem; */
     }
     .strategy-content p{
-        padding: 1.5rem;
-        margin-right: 4.5rem;
         text-align: center;
-        padding-right: 2rem;
-       
+        /* padding-top: -9rem;        */
     }
     .strategy img{
-        width: 100%;
+        max-width: 100%;
+        height: auto; 
+        display: block; 
+        margin: 0 auto;
     }
     .business-and-services{
         display: flex;
@@ -550,15 +560,21 @@ team stops here
     }
     .heading-content{
         height: 35rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
     .heading-content2, .heading-content3{
         height: 20rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
     .heading-content p, .heading-content2 p, .heading-content3 p{
         padding: 1.5rem;
     }
     .e-learning img, .payments img, .software-development img{
         width: 100%;
+        padding-right: 2rem;
+        margin-left: 1rem;
     }
      /* team */
     .card{
@@ -608,9 +624,9 @@ team stops here
         .strategy-content h2{
         margin-top: .8rem;
     }
-        .strategy img{
+        /* .strategy img{
         width: 100%;
-    }
+    } */
     /* Products and services */
     .business-and-services{
         display: flex;
@@ -631,9 +647,9 @@ team stops here
         grid-template-columns:1fr 1fr;
         gap: 1rem;
     }
-    .strategy img{
+    /* .strategy img{
         padding: 1.5rem;
-    }
+    } */
     
 
 }
@@ -765,8 +781,6 @@ team stops here
         .strategy img{
             padding: 1.2rem;
         }
-
-
 }
 
 </style>
