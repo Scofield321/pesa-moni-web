@@ -642,9 +642,9 @@ media queries
     height: 2rem;
 }
 .my-article h1{
-    font-size: 1.9rem;
-    margin-top: -8rem;
-    margin-left: 3rem;
+    font-size: 2.2rem;
+    margin-top: -10rem;
+    /* margin-left: 5rem; */
 }
 
 @keyframes flash {
