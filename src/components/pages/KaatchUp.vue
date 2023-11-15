@@ -1,7 +1,7 @@
 <template>
     <div class="kaatch-container">
         <div class="home-wrapper">
-          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">KAATCH-UP</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -133,6 +133,9 @@
   .kaatch-container{
     overflow: hidden;
   }
+  .navbar-dark{
+    background-color: #1a84c6;
+}
   .home-wrapper{
         background-image: linear-gradient(45deg,#1a84c6,#1a84c6);
         background-attachment: fixed;
@@ -154,10 +157,10 @@
       }
     }
 
-      a{
+    a{
       text-decoration: none;
-      /* padding: 4rem; */
       font-size: 1.3rem;
+      color: #fff;
     }
     .home-content{
       display: grid;

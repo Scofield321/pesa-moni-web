@@ -59,7 +59,10 @@
                             </button>
                         </div>
                     </div>
-
+                    <div class="my-article">
+                          <h1 class="flashing-paragraph">With Pesamoni, You Can Make It.</h1>
+                    </div>
+                    <!-- phone -->
                     <div class="phone">
                         <div class="screen">
                           <div class="the-article">
@@ -275,7 +278,14 @@ export default {
     .the-article{
       margin-top: -13rem;
     }
-    
+    .my-article{
+    display: none;
+}
+
+/* Apply the flashing animation to the heading */
+.flashing-paragraph {
+  animation: flash 2s infinite; 
+}
     .contact-us-btn{
           margin: 3rem;
           padding: 10px 30px;
@@ -570,8 +580,8 @@ p {
     }
     a{
       text-decoration: none;
-      /* padding: 4rem; */
       font-size: 1.3rem;
+      color: #fff;
     }
     .link-to-about-us a{
       color: #1a84c6;
@@ -605,7 +615,7 @@ media queries
       flex-direction:column;
     }
     .home-img img {
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
     margin-top: 11.5rem; 
     padding-right: -5rem; 
@@ -619,6 +629,40 @@ media queries
     .phone{
       display: none;
     }
+    .my-article{
+    display: block;
+    /* width: 50%; */
+    font-size: 0.4rem;
+    font-style: italic;
+    color: #fff;
+    margin-top: -1.2rem;
+    padding-top: 10rem;
+    font-weight: 900;
+    z-index: 99999;
+    height: 2rem;
+}
+.my-article h1{
+    font-size: 1.9rem;
+    margin-top: -8rem;
+    margin-left: 3rem;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+/* Apply the flashing animation to the heading */
+.flashing-paragraph {
+  animation: flash 2s infinite; 
+}
     /* 
     ===================
     New stories

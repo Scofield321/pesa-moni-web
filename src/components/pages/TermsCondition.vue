@@ -1,7 +1,7 @@
 <template>
     <div class="terms-condition-container">
         <div class="home-wrapper">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">Terms and Conditions</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -186,15 +186,19 @@ export default {
     background-color: #fff;
     overflow: hidden;
 }
+.navbar-dark{
+    background-color: #1a84c6;
+}
 .home-wrapper{
         background-image: url(https://images.pexels.com/photos/4065405/pexels-photo-4065405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         background-size: cover;
         height: 80vh;
         color: #fff;
     }
-      a{
+    a{
       text-decoration: none;
       font-size: 1.3rem;
+      color: #fff;
     }
     .home-content{
         position: absolute;

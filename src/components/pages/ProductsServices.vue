@@ -16,61 +16,7 @@
               </div>
                <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
       </div>
-      <!-- <section class="products-services">
-        <h2 class="title-h2">E-learning</h2>
-        <div class="e-learning">
-          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-          <div class="e-learning-content">
-            <h2>E-learning Systems</h2>
-            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
-          </div>
-        </div>
-
-      </section>
-      <section class="products-services">
-        <h2 class="title-h2">API for Mobile Networks</h2>
-        <div class="e-learning">
-          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-          <div class="e-learning-content">
-            <h2>E-learning Systems</h2>
-            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
-          </div>
-        </div>
-
-      </section>
-      <section class="products-services">
-        <h2 class="title-h2">Software Development</h2>
-        <div class="e-learning">
-          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-          <div class="e-learning-content">
-            <h2>E-learning Systems</h2>
-            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
-          </div>
-        </div>
-
-      </section>
-      <section class="products-services">
-        <h2 class="title-h2">API integrations for clients.</h2>
-        <div class="e-learning">
-          <img src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-          <div class="e-learning-content">
-            <h2>E-learning Systems</h2>
-            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
-          </div>
-        </div>
-
-      </section>
-      <section class="products-services">
-        <h2 class="title-h2">Video Conferencing Systems</h2>
-        <div class="e-learning">
-          <img src="https://images.pexels.com/photos/3764496/pexels-photo-3764496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-          <div class="e-learning-content">
-            <h2>E-learning Systems</h2>
-            <p>PESAMONI has an E-learning solution customized for any kind of school, university, secondary school, primary school with unique features and tools available to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. We have Learnida advanced e-learning software for all schools and available to install for each school that suits the needs of the school.</p>
-          </div>
-        </div>
-
-      </section> -->
+      
       <my-footer></my-footer>
     </div>
   </template>

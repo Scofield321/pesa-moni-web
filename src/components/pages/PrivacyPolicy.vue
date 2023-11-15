@@ -1,7 +1,7 @@
 <template>
   <div class="privacy-policy-container">
     <div class="home-wrapper">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">Privacy Policy</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -91,16 +91,19 @@ export default {
     background-color: #fff;
     overflow: hidden;
 }
+.navbar-dark{
+    background-color: #1a84c6;
+}
 .home-wrapper{
         background-image: url(https://images.pexels.com/photos/4152513/pexels-photo-4152513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         background-size: cover;
         height: 90vh;
         color: #fff;
     }
-      a{
+    a{
       text-decoration: none;
-      /* padding: 4rem; */
       font-size: 1.3rem;
+      color: #fff;
     }
     .home-content{
         position: absolute;

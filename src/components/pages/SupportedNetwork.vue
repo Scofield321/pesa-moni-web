@@ -46,6 +46,9 @@ export default {
     background-color: #fff;
     overflow: hidden;
 }
+.navbar-dark{
+    background-color: #1a84c6;
+}
     .home-wrapper{
         background-color: black;
         background-size: cover;

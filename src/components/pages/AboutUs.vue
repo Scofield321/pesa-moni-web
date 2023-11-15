@@ -1,7 +1,7 @@
 <template>
   <div class="about-us-container">
     <div class="homepage">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">Abour Us</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -207,6 +207,9 @@ export default {
 .about-us-container{
     background-color: whitesmoke;
     overflow: hidden;
+}
+.navbar-dark{
+  background-color: #1a84c6;
 }
 /* 
 ===========================
@@ -424,12 +427,12 @@ team starts starts here
     padding-bottom: 6rem;
     height: 2rem;
 }
-.img-content h4{
+    .img-content h4{
     color: #000;
     padding: 6px 4px 0 6px;
     margin-top: 8rem;
 }
-.img-content p{
+    .img-content p{
     color:#000;
     padding-bottom:10px ;
 }
@@ -488,6 +491,11 @@ team starts starts here
     .all-the-cards{
         margin: 4rem 0 4rem 0;
     }
+    a{
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: #fff;
+    }
 /* 
 =================================
 team stops here
@@ -508,14 +516,14 @@ team stops here
     position: relative;
     top: -4rem;
     left: 0;   
-}
-article h1{
+    }
+    article h1{
     font-size: 3rem;
-} 
-.about-pesamoni{
+    } 
+    .about-pesamoni{
     height: 22rem;
     text-align: center;
-}
+    }
       /* strategy */
     .strategy{
         display: flex;
@@ -579,23 +587,6 @@ article h1{
     .about-us-container{
     overflow: hidden;
     }
-    /* nav{
-        display: flex;
-        flex-direction: row;
-        width: 100%;    
-        height: 4rem;   
-      }
-      nav a{
-        color: white;
-        font-size: 1.4rem;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-       display: none;
-      } */
-      /* about section */
       .about-pesamoni p{
         font-size: 1.5rem;
     }
@@ -651,9 +642,6 @@ article h1{
     .about-us-container{
     overflow: hidden;
     }
-      /* nav h1{
-       display: none;
-      } */
       .about-pesamoni h1{
           text-align: center;
       }
@@ -726,9 +714,6 @@ article h1{
         .about-us-container{
             overflow: hidden;
     }
-        /* nav h1{
-            display: block;
-      } */
         .about-pesamoni p{
             font-size: 1rem;
       }

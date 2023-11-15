@@ -1,7 +1,7 @@
 <template>
   <div class="cashchat-container">
     <div class="home-wrapper">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">CASHCHAT</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -263,6 +263,9 @@ export default {
   background-color: whitesmoke;
   overflow: hidden;
 }
+.navbar-dark{
+  background-color: #1a84c6;
+}
 .home-wrapper{
         background-image: linear-gradient(45deg,#662d91, #662d91 );
         background-attachment: fixed;
@@ -283,10 +286,10 @@ export default {
         background-position: 0 50%;
       }
     }
-      a{
+    a{
       text-decoration: none;
-      /* padding: 4rem; */
       font-size: 1.3rem;
+      color: #fff;
     }
     .home-content{
       display: grid;

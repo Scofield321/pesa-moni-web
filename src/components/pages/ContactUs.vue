@@ -2,7 +2,7 @@
   <div class="contact-container">
     <button class="menu-toggle" v-if="!showMenu" @click="toggleMenu"><i class="fa fa-bars" aria-hidden="true"></i>
 </button>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">CONTACT US</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -80,6 +80,9 @@ export default {
         background-color:#fff;
         overflow: hidden;
     }
+    .navbar-dark{
+  background-color: #1a84c6;
+}
     h3{
        text-align: center;
        padding-top: .5rem;
@@ -121,6 +124,11 @@ export default {
 .number{
   padding-top: -1rem;
 }
+a{
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: #fff;
+    }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px) {
     .contact-container{

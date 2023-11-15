@@ -39,6 +39,9 @@ export default {
         background-color: black;
         overflow: hidden;
     }
+    .navbar-dark{
+    background-color: #1a84c6;
+}
     .home-wrapper{
         background-color: black;
         min-height: 100vh;

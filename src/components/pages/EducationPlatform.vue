@@ -1,6 +1,6 @@
 <template>
   <div class="education-container">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
         <h1 class="navbar-brand">EDUCATION</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
@@ -97,6 +97,9 @@ Home page starts here
         min-height: 100vh;
         overflow: hidden;
     }
+    .navbar-dark{
+    background-color: #1a84c6;
+}
     .container-fluid h1{
         color: #fff;
     }
@@ -120,20 +123,6 @@ Home page starts here
         width: 70%;
         margin: 0 0 4rem 12rem;
 }
-    /* button{
-        margin: 3rem;
-        padding: 10px 30px;
-        border: none;
-        border-radius: 5px;
-        background-color: #1a84c6;
-        z-index: 9999;
-        color: white;
-    }
-    button:hover{
-        cursor: pointer;
-        background: #f3874f;
-        color: white;
-    } */
     .contact-us-btn{
           margin: 3rem;
           padding: 10px 30px;
@@ -151,12 +140,6 @@ Home page starts here
           background: #f3874f;
           color: white;
       }
-       /* .menu-toggle{ 
-         padding: 5px 1rem; 
-         position: absolute;
-         top: -2rem;
-         left: -1rem;     
-      } */
 /* 
 ==========================
 home page ends here
@@ -221,6 +204,11 @@ main content starts from here
     /* font-size: 5rem; */
     font-weight: 100;
 }
+a{
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: #fff;
+    }
 /* 
 ===============================
 main content stops from here 
