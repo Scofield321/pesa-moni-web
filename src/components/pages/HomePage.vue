@@ -99,7 +99,7 @@
       <section class="new-stories">
         <h3>Products</h3>
         <h5>Select service of your interest:</h5>
-          <router-link to="/pesamoni">PESAMONI</router-link>
+          <!-- <router-link to="/pesamoni">PESAMONI</router-link> -->
           <router-link to="/education">EDUCATION</router-link>
           <router-link to="/cashchat">CASHCHAT</router-link>
           <router-link to="/kaatchup">KAATCH-UP</router-link>
@@ -682,8 +682,10 @@ media queries
       grid-template-columns: 1fr;
     }
     .the-content{
-      margin-right: .8rem;
+      margin-right: .5rem;
       margin-top: 1rem;
+      margin-left: .5rem;
+      width: 94vw;
     }
     .the-content p{
       text-align: center;
@@ -725,7 +727,7 @@ media queries
       text-align: center;
     }
     .who-we-are-content p{
-      margin-right: 4rem;
+      margin-right: 5rem;
     }
     .who-we-are-content:nth-child(1){
       order: 2
