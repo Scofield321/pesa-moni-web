@@ -155,7 +155,7 @@ a{
         width: 99%;
         padding-bottom: -1rem;
         height: 35rem;
-        margin-bottom: -15rem;
+        /* margin-bottom: -15rem; */
 }
     .email-address{
     padding-top:4rem;
