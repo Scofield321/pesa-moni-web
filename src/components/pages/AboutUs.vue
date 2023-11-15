@@ -3,7 +3,7 @@
     <div class="homepage">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
-        <h1 class="navbar-brand">Abour Us</h1>
+        <h1 class="navbar-brand">About Us</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

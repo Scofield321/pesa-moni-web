@@ -644,7 +644,7 @@ media queries
 }
 .my-article h1{
     font-size: 3rem;
-    margin-top: -12rem;
+    margin-top: -15rem;
 }
 
 @keyframes flash {
