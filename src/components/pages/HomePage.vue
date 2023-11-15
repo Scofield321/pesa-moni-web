@@ -638,9 +638,10 @@ media queries
     font-style: italic;
     color: #fff;
     margin-top: -1.2rem;
-    padding-top: 2rem;
+    padding: 2rem;
     font-weight: 900;
     height: 2rem;
+    width: 25rem;
 }
 .my-article h1{
     font-size: 3rem;
