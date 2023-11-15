@@ -726,6 +726,9 @@ media queries
     .who-we-are-content p, .who-we-are-content h2{
       text-align: center;
     }
+    .who-we-are-content h2{
+      margin-left: -4rem;
+    }
     .who-we-are-content p{
       margin-right: 5rem;
     }
