@@ -111,28 +111,28 @@
         <h3>Products & Services</h3>
         <div class="product-service-first-content">
             <div class="product-service-content">
-                <img src="https://images.pexels.com/photos/7621142/pexels-photo-7621142.jpeg?auto=compress&cs=tinysrgb&w=750&h=750&dpr=1" alt="">
+                  <img src="https://images.pexels.com/photos/7621142/pexels-photo-7621142.jpeg?auto=compress&cs=tinysrgb&w=750&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>Payment Systems</h3>
                   <p>Card payments using Stanbic Bank for Acquiring Card transaction over Card Not Present. Let us do the heavy lifting for you and your bank, we have all the resources to facilitae everything between you and the bank.. </p>
                 </div>
             </div>
             <div class="product-service-content">
-                <img src="https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&cs=tinysrgb&w=700&h=750&dpr=1" alt="">
+                  <img src="https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&cs=tinysrgb&w=700&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>E-learning Systems</h3>
                   <p>PESAMONI has an E-learning solution customized for any kind of school to conduct classes with live video class interaction, Audio interaction, Library for the classes, teacher’s virtual classrooms, administration virtual monitoring tools for E-learning. </p>
                 </div>
             </div>
             <div class="product-service-content">
-                <img src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                  <img src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>Chat Systems</h3>
                   <p>We empower all those who want easy and secure communication in personal chats at free cost. All the chat have End-to-End Encryptio (E2EE),NOo one will be able to read yourr chat not even company employees </p>
                 </div>
             </div>
             <div class="product-service-content">
-                <img src="https://images.pexels.com/photos/6328941/pexels-photo-6328941.jpeg?auto=compress&cs=tinysrgb&w=750&h=750&dpr=1" alt="">
+                  <img src="https://images.pexels.com/photos/6328941/pexels-photo-6328941.jpeg?auto=compress&cs=tinysrgb&w=750&h=750&dpr=1" alt="">
                 <div class="the-content">
                   <h3>Fundraise From Anywhere</h3>
                   <p>We softens the process and all the hassles involved in raising funds from Friends, Family and everyone wherever in the world. You can raise funds for your business,occassions like baby shower, wedding, introduction and so many others. </p>
@@ -501,7 +501,7 @@ p {
     .product-service-content img{
         width: 95%;
         height: 50vh;
-        background-color: #f3874f;
+        /* background-color: #f3874f; */
         margin-left: 1rem; 
     }
       /* 
@@ -613,15 +613,22 @@ media queries
       margin:.1rem;
       display: flex;
       flex-direction:column;
+      height: 100vh;
+    }
+    .home-img{
+      height: 100vh;
     }
     .home-img img {
-    height: 40vh;
-    width: 100vw;
-    margin-top: 11.5rem; 
-    padding-right: -5rem; 
-    display: flex;
+    height: 100vh;
+    /* width: 100vw; */
+    padding: 11.5rem .5rem 1rem .5rem; 
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
   }
   .wavy{
     margin-top: -10rem;
@@ -631,20 +638,17 @@ media queries
     }
     .my-article{
     display: block;
-    /* width: 50%; */
     font-size: 0.4rem;
     font-style: italic;
     color: #fff;
     margin-top: -1.2rem;
-    padding-top: 10rem;
+    padding-top: 2rem;
     font-weight: 900;
-    z-index: 99999;
     height: 2rem;
 }
 .my-article h1{
-    font-size: 2.2rem;
-    margin-top: -10rem;
-    /* margin-left: 5rem; */
+    font-size: 3rem;
+    margin-top: -20rem;
 }
 
 @keyframes flash {
@@ -682,7 +686,8 @@ media queries
       grid-template-columns: 1fr;
     }
     .the-content{
-      width: 100%;
+      margin-right: .8rem;
+      margin-top: 1rem;
     }
     .the-content p{
       text-align: center;
@@ -693,6 +698,11 @@ media queries
     }
     .product-service-content img{
       margin: 1rem;
+      padding-right:.5rem;
+      max-width: 100%;
+      height: auto; 
+      display: block; 
+      margin: 0 auto; 
     }
      /* 
     =========================================
@@ -714,7 +724,6 @@ media queries
     .who-we-are{
       display: flex;
       flex-direction: column;
-      margin-top: 25rem;
     }
     .who-we-are-content p, .who-we-are-content h2{
       text-align: center;
@@ -731,8 +740,13 @@ media queries
     h1{
       display: block;
       text-align: center;
-    }
-    
-
+    }   
+    /* making all images responsive */
+    img {
+            max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
 }
 </style>
