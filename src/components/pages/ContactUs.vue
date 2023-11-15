@@ -131,7 +131,7 @@ a{
       font-size: 1.3rem;
       color: #fff;
     }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* extra-small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px) {
     .contact-container{
         overflow: hidden;
@@ -145,17 +145,16 @@ a{
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: -5.2rem;
-      height: 80rem;
+      height: 60rem;
     }
     img{
       margin-bottom: -3rem;
+      margin-top: -3rem;
     }
     .contact-info{
         width: 99%;
-        padding-bottom: -1rem;
+        margin-bottom: -10rem;
         height: 35rem;
-        /* margin-bottom: -15rem; */
 }
     .email-address{
     padding-top:4rem;
@@ -178,6 +177,7 @@ a{
     }
     img{
         margin-bottom: -3rem;
+        
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
