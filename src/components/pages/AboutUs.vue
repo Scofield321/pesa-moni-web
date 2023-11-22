@@ -596,14 +596,7 @@ team stops here
     }
     .card .img-content{       
         width: 20rem;
-        /* margin:auto; */
         margin-left:-2rem;
-    }
-    .bootstrap-mag{
-        max-width: 100%;
-            height: auto; 
-            display: block; 
-            margin: 0 auto; 
     }
 
 }

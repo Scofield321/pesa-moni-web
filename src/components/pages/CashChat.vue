@@ -646,8 +646,12 @@ h2{
       margin: 1rem;
       margin-top: -2rem;
   }
+  article h2, article p{
+      margin-left: -1rem;
+  }
     article img{
       width: 20rem;
+      margin-left:-1rem;
   }
     article a img{
       height:5rem;
