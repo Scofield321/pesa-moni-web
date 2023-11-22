@@ -571,9 +571,6 @@ team stops here
     .heading-content p, .heading-content2 p, .heading-content3 p{
         padding: 1.5rem;
     }
-    /* .heading-content2 h2{
-        padding-bottom: -3rem;
-    } */
     .e-learning img, .payments img, .software-development img{
         width: 100%;
         padding-right: 2rem;
@@ -585,7 +582,7 @@ team stops here
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: .5rem;
+        margin: 2.9rem;
     }
     .card .my-card1{
         height: 25rem;
@@ -594,9 +591,10 @@ team stops here
         height: 25rem;
     }
     .card .img-content{
-        margin-right:5rem;
+        
         width: 20rem;
-        /* margin-left: -1rem; */
+        margin:auto;
+        margin-left:-1rem;
     }
 
 
