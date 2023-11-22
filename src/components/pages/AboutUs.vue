@@ -594,7 +594,7 @@ team stops here
         
         width: 20rem;
         margin:auto;
-        margin-left:-1rem;
+        margin-left:-2rem;
     }
 
 
