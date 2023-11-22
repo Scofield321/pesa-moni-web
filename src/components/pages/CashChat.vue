@@ -100,7 +100,7 @@
                                 <p>
                                   By engaging an audience through our platform, we 
                                   have an ability to generate awareness, widen our client’s potential reach-out 
-                                  with in their target market, this resulting into an ultimate topline growth.
+                                  with in their target market.
                                 </p>                         
                             </div>
                             </div>
@@ -156,7 +156,7 @@
                 </p>
             </div>
             <div>
-                <img src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <img class="payments-img" src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
         </div>
         <h2 class="modified-h2">Run any business Ads via our platform</h2>
