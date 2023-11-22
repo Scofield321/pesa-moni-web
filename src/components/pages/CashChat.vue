@@ -644,7 +644,7 @@ h2{
       padding: 1rem;
       height: 35rem;
       margin: 1rem;
-      margin-top: -2rem;
+      margin-top: -3rem;
   }
   article h2, article p{
       margin-left: -1rem;
@@ -656,6 +656,8 @@ h2{
     article a img{
       height:5rem;
       width: 13rem;
+      margin: auto;
+      margin-left: 2.5rem;
   }
   /* Sliding cards starts here */
     .sliding-cards{
