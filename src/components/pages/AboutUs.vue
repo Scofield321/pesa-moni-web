@@ -50,7 +50,7 @@
             <div>
                 <img class="strategy-img" src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
             </div>
-            <div class="heading-content">
+            <div class="heading-content2">
                 <h2>Strategy</h2>
                 <p>We combine real and the digital worlds. Our strategy is powered by the long term. addressing the biggest challenges of our generation; old fashioned schooling, backwards communication, analog payment systems</p>
             </div>
@@ -540,17 +540,15 @@ team stops here
         flex-direction: column;
 
       }
-    .strategy-content{
+    /* .strategy-content{
           height: 20rem;
           width: auto;
           margin:2rem .5rem 0 .9rem;
-          /* padding-right: 2rem; */
     }
     .strategy-content p{
         text-align: center;
-        /* padding-top: -9rem;        */
-    }
-    .strategy img{
+    } */
+    .e-learning img{
         max-width: 100%;
         height: auto; 
         display: block; 
@@ -566,7 +564,7 @@ team stops here
         margin-left: 1rem;
     }
     .heading-content2, .heading-content3{
-        height: 20rem;
+        height: 22rem;
         margin-right: 1rem;
         margin-left: 1rem;
     }
