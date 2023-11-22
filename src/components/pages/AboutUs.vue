@@ -46,12 +46,14 @@
         </div>
     </section>
     <section class="strategy">
-        <div>
-            <img src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
-        </div>
-        <div class="strategy-content">
-            <h2>Strategy</h2>
-            <p>We combine real and the digital worlds. Our strategy is powered by the long term. addressing the biggest challenges of our generation; old fashioned schooling, backwards communication, analog payment systems</p>
+        <div class="e-learning">
+            <div>
+                <img class="strategy-img" src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
+            </div>
+            <div class="heading-content">
+                <h2>Strategy</h2>
+                <p>We combine real and the digital worlds. Our strategy is powered by the long term. addressing the biggest challenges of our generation; old fashioned schooling, backwards communication, analog payment systems</p>
+            </div>
         </div>
     </section>
     <section>
@@ -624,9 +626,10 @@ team stops here
         .strategy-content h2{
         margin-top: .8rem;
     }
-        /* .strategy img{
-        width: 100%;
-    } */
+    .strategy-img{
+        padding-right: 10rem;
+    }
+      
     /* Products and services */
     .business-and-services{
         display: flex;
