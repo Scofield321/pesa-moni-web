@@ -51,7 +51,7 @@
                 <img class="strategy-img" src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
             </div>
             <div class="heading-content2">
-                <h2>Strategy</h2>
+                <h3>Strategy</h3>
                 <p>We combine real and the digital worlds. Our strategy is powered by the long term. addressing the biggest challenges of our generation; old fashioned schooling, backwards communication, analog payment systems</p>
             </div>
         </div>
@@ -571,6 +571,9 @@ team stops here
     .heading-content p, .heading-content2 p, .heading-content3 p{
         padding: 1.5rem;
     }
+    /* .heading-content2 h2{
+        padding-bottom: -3rem;
+    } */
     .e-learning img, .payments img, .software-development img{
         width: 100%;
         padding-right: 2rem;
