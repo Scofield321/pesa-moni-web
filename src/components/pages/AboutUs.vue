@@ -46,15 +46,13 @@
         </div>
     </section>
     <section class="strategy">
-        <div class="e-learning">
             <div>
                 <img class="strategy-img" src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg" alt="strategy Image">
             </div>
-            <div class="heading-content2">
-                <h3>Strategy</h3>
+            <div class="strategy-content">
+                <h2>Strategy</h2>
                 <p>We combine real and the digital worlds. Our strategy is powered by the long term. addressing the biggest challenges of our generation; old fashioned schooling, backwards communication, analog payment systems</p>
             </div>
-        </div>
     </section>
     <section>
         <h2>Products & Services</h2>
@@ -117,7 +115,7 @@
                         <div class="col-sm-6">
                             <div class="card">
                                 <div class="my-card1 d-block w-100">
-                                    <img src="../../assets/pesateam/asher2.jpg" alt="Asher image ceo">
+                                    <img class="bootstrap-mag" src="../../assets/pesateam/asher2.jpg" alt="Asher image ceo">
                                     <div class="img-content">
                                         <h4>Namanya Asher</h4>
                                         <p>Founder and CEO</p>
@@ -540,20 +538,26 @@ team stops here
         flex-direction: column;
 
       }
-    /* .strategy-content{
+      .strategy img{
+            max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+      }
+    .strategy-content{
           height: 20rem;
           width: auto;
           margin:2rem .5rem 0 .9rem;
     }
     .strategy-content p{
         text-align: center;
-    } */
-    .e-learning img{
+    }
+    /* .e-learning img{
         max-width: 100%;
         height: auto; 
         display: block; 
         margin: 0 auto;
-    }
+    } */
     .business-and-services{
         display: flex;
         flex-direction: column;
@@ -564,7 +568,7 @@ team stops here
         margin-left: 1rem;
     }
     .heading-content2, .heading-content3{
-        height: 22rem;
+        height: 20rem;
         margin-right: 1rem;
         margin-left: 1rem;
     }
@@ -590,13 +594,17 @@ team stops here
     .card .my-card4{
         height: 25rem;
     }
-    .card .img-content{
-        
+    .card .img-content{       
         width: 20rem;
-        margin:auto;
+        /* margin:auto; */
         margin-left:-2rem;
     }
-
+    .bootstrap-mag{
+        max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+    }
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -652,7 +660,11 @@ team stops here
     /* .strategy img{
         padding: 1.5rem;
     } */
-    
+    .card .img-content{       
+        width: 20rem;
+        /* margin:auto; */
+        margin-left:-2rem;
+    }
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -679,9 +691,14 @@ team stops here
     }
         .strategy-content h2{
         margin-top: .8rem;
-    }
-        .strategy img{
+    } 
+         .strategy img{
         width: 100%;
+    }
+    .card .img-content{       
+        width: 20rem;
+        /* margin:auto; */
+        margin-left:-2rem;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -725,7 +742,14 @@ team stops here
         .e-learning img, .payments img, .software-development img{
             width: 100%;
     }
-
+    .heading-content{
+        margin-top: 0;
+    }
+    .card .img-content{       
+        width: 20rem;
+        /* margin:auto; */
+        margin-left:-2rem;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
@@ -783,6 +807,14 @@ team stops here
         .strategy img{
             padding: 1.2rem;
         }
+        .heading-content{
+        margin-top: 0;
+    }
+    .card .img-content{       
+        width: 20rem;
+        /* margin:auto; */
+        margin-left:-2rem;
+    }
 }
 
 </style>
