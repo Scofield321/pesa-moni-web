@@ -620,7 +620,7 @@ media queries
     }
     .home-img img {
     height: 100vh;
-    padding: 11.5rem .5rem 1rem .5rem; 
+    padding: 10.5rem .5rem 1rem .5rem; 
     max-width: 100%;
     height: auto; 
     display: block; 
