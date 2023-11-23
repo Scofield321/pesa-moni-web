@@ -563,6 +563,11 @@
         width: 27rem;
         margin-left:-.9rem ;
     }
+    .testimonies-content p{
+      width: 23rem;
+        /* margin-left: -1.5rem; */
+        text-align: center;
+    }
     .testimonies-content:nth-child(1){
         order: 2;
     }
@@ -579,10 +584,6 @@
         max-width: 100%;
         overflow: hidden;
         /* width: 25rem; */
-    }
-    .testimonies-content p{
-        margin-left: -1rem;
-        text-align: center;
     }
     .gapped-h2{
         margin-top: -5rem;
