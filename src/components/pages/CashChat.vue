@@ -155,8 +155,8 @@
                     Business API for payments and collections.
                 </p>
             </div>
-            <div>
-                <img class="payments-img" src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="payments-img">
+                <img src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
         </div>
         <h2 class="modified-h2">Run any business Ads via our platform</h2>
@@ -669,17 +669,17 @@ h2{
         padding: 1rem;
         padding-right: 1rem;
     }
-.card{
-    height: 21rem;
-}
-.my-card2, .my-card3{
-    height: 23rem;
-}
-.elearning-distance-learning, .elearning-distance-learning1{
-    display: flex;
-    flex-direction: column;
-    height: 40rem;
-}
+    .card{
+        height: 21rem;
+    }
+    .my-card2, .my-card3{
+        height: 23rem;
+    }
+    .elearning-distance-learning, .elearning-distance-learning1{
+        display: flex;
+        flex-direction: column;
+        height: 35rem;
+    }
     .elearning-distance-learning1{
     background-color: transparent;
     height: 35rem;
@@ -695,14 +695,18 @@ h2{
 }
     .img-text1, .img-text{
         width: 25rem;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
     }
     .img-text1{
         width: 30rem;
     }
+    .elearning-distance-learning1 img{
+        width: 26.8rem;
+    }
     .img-text1 p{
         margin-left: 5rem;
         margin-right: 2rem;
+        color: #fff;
     }
     .img-text p{
         margin-right: 1rem;
@@ -728,7 +732,12 @@ h2{
     .img-text:nth-child(2){
         order: 1;
     }
-
+    .payments-img img{ 
+        max-width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below the image */
+            margin: 0 auto;
+    }
     .cashchat-testimonies {
     display: flex;
     flex-direction: column;
