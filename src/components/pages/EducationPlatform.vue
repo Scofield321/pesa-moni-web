@@ -39,21 +39,23 @@
       <section class="main-content">
         <h1>Learning Management Systems</h1>
           <div class="main-content-img">
-              <div>
-                  <img src="https://images.pexels.com/photos/4145347/pexels-photo-4145347.jpeg?auto=compress&cs=tinysrgb&w=450&h=400&dpr=1" alt="">
+              <div class="img1" >
+                  <div class="the-img">
+                      <img src="https://images.pexels.com/photos/4145347/pexels-photo-4145347.jpeg?auto=compress&cs=tinysrgb&w=450&h=400&dpr=1" alt="">
+                    </div>
                   <div class="card1">
                       <h4>Primary Schools </h4>
                       <p>Let your little kids learn from home and you can guide them better</p>
                   </div>
               </div>
-              <div>
+              <div class="img1">
                   <img src="https://images.pexels.com/photos/4144224/pexels-photo-4144224.jpeg?auto=compress&cs=tinysrgb&w=450&h=400" alt="">
                   <div class="card2">
                       <h4>Secondary Schools </h4>
                       <p>We have a well tested Learning Management system for Secondary Schools</p>
                   </div>
               </div>
-              <div>
+              <div class="img1">
                   <img src="https://images.pexels.com/photos/6084261/pexels-photo-6084261.jpeg?auto=compress&cs=tinysrgb&w=450&h=400&dpr=1" alt="">
                   <div class="card3">
                       <h4>Higher Education </h4>
@@ -282,6 +284,16 @@ media queries*/
 .card1 p, .card2 p, .card3 p{
     font-size: 1.2rem;
 }
+.the-img img{
+        max-width: 100%;
+        height: auto; 
+        display: block; 
+        margin: 0 auto;
+}
+.img1{
+    margin-bottom: 4rem;
+}
+
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -424,11 +436,6 @@ media queries*/
         grid-template-columns: 1fr 1fr;
         margin: 2rem;
         gap: 1rem;
-}
-    .main-content-img img{
-        margin-top: 2rem;
-        border-radius: 10px 10px 0 0;
-        width: 100%;
 }
     .card1, .card2, .card3{
         width: 100%;

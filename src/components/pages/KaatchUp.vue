@@ -425,13 +425,20 @@
       height: 30rem;
       margin: 1rem;
       margin-top: -2rem;
+      margin-left: -1rem;
   }
     article img{
+      max-width: 100%;
+      height: auto;
+      display: block; 
+      margin: 0 auto;
       width: 20rem;
   }
     article a img{
       height:5rem;
       width: 13rem;
+      margin: auto;
+      margin-left: 3rem;
   }
   .home-wrapper{
     height: 90vh;

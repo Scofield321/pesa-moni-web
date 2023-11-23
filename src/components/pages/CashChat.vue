@@ -734,9 +734,9 @@ h2{
     }
     .payments-img img{ 
         max-width: 100%;
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Remove extra space below the image */
-            margin: 0 auto;
+        height: auto; 
+        display: block;
+        margin: 0 auto;
     }
     .cashchat-testimonies {
     display: flex;
