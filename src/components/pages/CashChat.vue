@@ -161,7 +161,9 @@
         </div>
         <h2 class="gapped-h2">Run any business Ads via our platform</h2>
         <div class="elearning-distance-learning1">
-            <img src="https://images.pexels.com/photos/5077038/pexels-photo-5077038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="payments-img">
+                <img src="https://images.pexels.com/photos/5077038/pexels-photo-5077038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
             <div class="img-text1">
                 <h2>CashChat Ads</h2>
                 <p>
@@ -186,13 +188,17 @@
                     calls in HD format.
                 </p>
             </div>
-            <img src="https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="payments-img">>
+                <img src="https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
         </div>
         <h2 class="gapped-h2">Stay connected with everyone affordably</h2>
         <div class="elearning-distance-learning1">
-            <img src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="payments-img">>
+                <img src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
             <div class="img-text1">
-                <h2>Unlimited group chats and Personal private messaging</h2>
+                <h2 class="padded-h2">Unlimited group chats and Personal private messaging</h2>
                 <p>
                     CashChat has also empowered all those who want easy and secure
                     communication in personal chats at free cost.
@@ -211,7 +217,9 @@
                     investment.
                 </p>
             </div>
-            <img src="https://images.pexels.com/photos/8353796/pexels-photo-8353796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="payments-img">>
+                <img src="https://images.pexels.com/photos/8353796/pexels-photo-8353796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
         </div>
     </section >
     <h2 class="testimony-h2">Testimonies</h2>
@@ -708,6 +716,7 @@ h2{
     }
     .elearning-distance-learning1 h2{
     margin-left: -1rem;
+
 }
     .img-text1 p{
         margin-left: 5rem;
@@ -732,7 +741,7 @@ h2{
     .elearning-distance-learning img, .digital-wallet img{
     width: 100%;
 }
-    .elearning-distance-learning p{
+    .elearning-distance-learning p, .elearning-distance-learning1 p{
     text-align: center;
 }
     .img-text:nth-child(1){
@@ -751,6 +760,7 @@ h2{
     display: flex;
     flex-direction: column;
     margin-top: -3rem;
+    margin-bottom: 3rem;
 }
     .demonstration-vid{
         width: 25rem;
@@ -791,6 +801,9 @@ h2{
     }
     .testimony-h2{
         margin-top: 5rem;
+    }
+    .padded-h2{
+        margin: 1rem;
     }
 }
 
