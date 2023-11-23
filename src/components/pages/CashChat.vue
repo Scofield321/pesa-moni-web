@@ -214,7 +214,7 @@
             <img src="https://images.pexels.com/photos/8353796/pexels-photo-8353796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
     </section >
-    <h2 class="gapped-h2">Testimonies</h2>
+    <h2 class="testimony-h2">Testimonies</h2>
     <section class="cashchat-testimonies">
         <div class="demonstration-vid">
             <video src="./video/cashchat-video-1.mp4" width="640" height="480" controls></video>
@@ -775,6 +775,9 @@ h2{
     }
     .gapped-h2{
         margin-top: -8rem;
+    }
+    .testimony-h2{
+        margin-top: 5rem;
     }
 }
 
