@@ -62,7 +62,7 @@
                 <img src="https://i.ytimg.com/vi/77fzoKmfoR4/maxresdefault.jpg" alt="">
               </div>
               <div class="img-text">
-                  <h2>Kaatc-Up fundraising</h2>
+                  <h2>Kaatch-Up fundraising</h2>
                   <p>
                       Kaatch-Up softens the process and all the hassels involved in raising funds from Friends, Family and everyone wherever in the world. You can raise funds for your business,occassions like baby shower, wedding, introduction and so many others.
                   </p>
@@ -499,6 +499,7 @@
     .img-text{
       width: 28rem;
       margin-right: 2rem;
+      height: 21rem;
       
     }
     .img-text1{
@@ -580,7 +581,8 @@
         /* width: 25rem; */
     }
     .testimonies-content p{
-        margin-left: 1rem;
+        margin-left: -1rem;
+        text-align: center;
     }
     .gapped-h2{
         margin-top: -5rem;
