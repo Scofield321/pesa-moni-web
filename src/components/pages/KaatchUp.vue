@@ -58,7 +58,9 @@
       <section class="other-content">
         <!-- <h2>Fundraise from anywhere in the World, with just few clicks</h2> -->
           <div class="elearning-distance-learning">
-              <img class="fund-rasing-img" src="https://i.ytimg.com/vi/77fzoKmfoR4/maxresdefault.jpg" alt="">
+              <div  class="fund-rasing-img">
+                <img src="https://i.ytimg.com/vi/77fzoKmfoR4/maxresdefault.jpg" alt="">
+              </div>
               <div class="img-text">
                   <h2>Kaatc-Up fundraising</h2>
                   <p>
@@ -440,6 +442,9 @@
       margin: auto;
       margin-left: 3rem;
   }
+  article p{
+    text-align: center;
+  }
   .home-wrapper{
     height: 90vh;
     margin-bottom: -2rem;
@@ -481,8 +486,12 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-        width: 25rem;
-        margin-bottom: 3rem;
+      width: 29rem;
+      margin-bottom: 3rem;
+    }
+    .img-text{
+      width: 28rem;
+      margin-top: 4rem;
     }
     .img-text1{
       margin-left: -1rem;
@@ -491,9 +500,11 @@
     .img-text1 p{
         margin-left: 2rem;
         margin-right: 1rem;
+        text-align: center;
     }
     .img-text p{
         margin-right: 1rem;
+        text-align: center;
     }
     .img-text1 h2{
       text-align: center;
@@ -510,7 +521,13 @@
     }
     .elearning-distance-learning img, .digital-wallet img{
     width: 100%;
-}
+    }
+    .fund-rasing-img img{
+      max-width: 100%;
+      height: auto;
+      display: block; 
+      margin: 0 auto;
+    }
     .img-text:nth-child(1){
         order: 2;
     }
