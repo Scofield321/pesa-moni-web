@@ -479,7 +479,7 @@
     .digital-wallet .img-text1{
       width: 26.9rem;
       margin-right:3rem;
-      margin-top: -2rem;
+      margin-top: -3rem;
 
     }
     .digital-wallet img{
@@ -541,7 +541,7 @@
       margin-bottom: 3rem;
     }
     .digital-wallet{
-      margin-top: -11rem;
+      margin-top: -15rem;
       margin-bottom: 3rem;
     }
     .img-text:nth-child(1){
