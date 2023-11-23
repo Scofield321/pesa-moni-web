@@ -546,18 +546,18 @@ team stops here
       }
     .strategy-content{
           height: 20rem;
-          width: auto;
-          margin:2rem .5rem 0 .9rem;
+          width: 30rem;
+          margin:2rem .5rem 0 0;
     }
     .strategy-content p{
         text-align: center;
+        width: 20rem;
+        padding: 0 2rem;
     }
-    /* .e-learning img{
-        max-width: 100%;
-        height: auto; 
-        display: block; 
-        margin: 0 auto;
-    } */
+    .strategy-content h2{
+        text-align: center;
+        padding-bottom: -4rem;
+    }
     .business-and-services{
         display: flex;
         flex-direction: column;
