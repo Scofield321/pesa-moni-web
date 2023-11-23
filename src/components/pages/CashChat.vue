@@ -161,7 +161,7 @@
         </div>
         <h2 class="gapped-h2">Run any business Ads via our platform</h2>
         <div class="elearning-distance-learning1">
-            <div class="payments-img">
+            <div class="payments-img1">
                 <img src="https://images.pexels.com/photos/5077038/pexels-photo-5077038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
             <div class="img-text1">
@@ -188,13 +188,13 @@
                     calls in HD format.
                 </p>
             </div>
-            <div class="payments-img">>
+            <div class="payments-img1">>
                 <img src="https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
         </div>
         <h2 class="gapped-h2">Stay connected with everyone affordably</h2>
         <div class="elearning-distance-learning1">
-            <div class="payments-img">>
+            <div class="payments-img1">>
                 <img src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
             <div class="img-text1">
@@ -217,7 +217,7 @@
                     investment.
                 </p>
             </div>
-            <div class="payments-img">>
+            <div class="payments-img1">>
                 <img src="https://images.pexels.com/photos/8353796/pexels-photo-8353796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
         </div>
@@ -527,6 +527,7 @@ other content starts here
 }
 .img-text{
     margin: 6rem 8rem ;
+    /* margin-top: 8rem; */
 }
 .img-text1{
     margin: 4rem 8rem;
@@ -551,7 +552,9 @@ other content starts here
     margin-left: 1rem;
     height: 27rem;
 }
-
+.elearning-distance-learning .img1-text1{
+    margin-top: 4rem;
+}
 .img-text1, .img-text{
     background-color: #8CC63F;
     margin-top: .5rem;
@@ -565,7 +568,7 @@ other content starts here
     height: 28rem;
 }
 .img-text{
-    margin-top: 1.8rem;
+    margin-top: 3.4rem;
     margin-left: 1rem;
 }
  .img-text h2, .img-text p, .img-text1 h2, .img-text1 p {
@@ -596,6 +599,9 @@ other content starts here
 .gapped-h2{
     padding-top:3rem;
     color:#662d91;
+}
+.payments-img{
+    margin-top: 1.4rem;
 }
 /* 
 ===============================
@@ -750,7 +756,7 @@ h2{
     .img-text:nth-child(2){
         order: 1;
     }
-    .payments-img img{ 
+    .payments-img img, .payments-img1 img{ 
         max-width: 100%;
         height: auto; 
         display: block;

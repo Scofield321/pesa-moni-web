@@ -375,33 +375,6 @@ media queries*/
       .menu-toggle {
         display: none; 
   }
-    nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        position: unset;
-        z-index: 99999;
-        height: 6rem;
-        margin-top: 1rem;
-        margin-bottom: -4rem;
-        width: 100%; 
-        background-color: #1a84c6;      
-      }
-      nav a{
-        padding: .5rem;
-        color: #fff;
-        text-decoration: none;
-        font-size: 1.3rem;
-        width: 100%;
-        text-align: center;
-      } 
-      nav a:active{
-          color: #f3874f;
-          border: 1px solid #fff;
-      }
-      nav h1{
-          display: none;
-      }
       .education-page{
         height: 100%;
         width: 100%;
@@ -455,31 +428,6 @@ media queries*/
     .education-page h1{
         font-size: 1rem;
     }
-
-    nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        position: unset;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        width: 100%; 
-        background-color: transparent;     
-      }
-      nav a{
-        padding: .5rem;
-        color: #1a84c6;
-        text-decoration: none;
-        font-size: 1.4rem;
-        width: 100%;
-        text-align: center;
-      } 
-      nav a:active{
-          color: #f3874f;
-          border: 1px solid #fff;
-      }
       .education-page{
         height: 100%;
         width: 100%;
