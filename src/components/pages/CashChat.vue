@@ -234,7 +234,7 @@
                 A detailed video of CashChat, from all the servces to benefits. Change the way you think of social media, it's not only for having fun but also for earning.  
             </p>
         </div>
-        <div class="guildline-vid">
+        <div class="demonstration-vid">
             <video src="./video/caashchat-description.mp4" width="640" height="480" controls></video>
         </div>
     </section>
