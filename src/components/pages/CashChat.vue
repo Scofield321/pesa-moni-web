@@ -563,7 +563,7 @@ other content starts here
  .img-text h2, .img-text p, .img-text1 h2, .img-text1 p {
     color: #fff;
     padding: 2rem;
-    font-weight: 200;
+    font-weight: 400;
 }
 .img-text h2, .img-text1 h2{
     padding: 1rem;
@@ -571,7 +571,6 @@ other content starts here
     font-weight: 500;
 }
 .elearning-distance-learning{
-    /* height: 60vh; */
     color: #fff;
 }
 .elearning-distance-learning img{
@@ -765,6 +764,7 @@ h2{
     }
     .testimonies-content p{
         margin-left: 3rem;
+        text-align: center;
     }
     .testimonies-content1{
         height: 15rem;
@@ -772,6 +772,9 @@ h2{
     }
     .testimonies-content1 h2{
         margin-bottom: 2rem;
+    }
+    .testimonies-content1 p{
+        text-align: center;
     }
     .gapped-h2{
         margin-top: -8rem;
