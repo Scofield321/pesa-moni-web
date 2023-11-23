@@ -551,13 +551,17 @@ team stops here
     }
     .strategy-content p{
         text-align: center;
-        width: 20rem;
+        width: 22rem;
         padding: 0 2rem;
     }
-    .strategy-content h2{
+    .strategy h2{
         text-align: center;
-        padding-bottom: -4rem;
+        margin-bottom: 1rem;
+        margin-left: -6rem;
+        
     }
+
+    /* Products and services */
     .business-and-services{
         display: flex;
         flex-direction: column;
