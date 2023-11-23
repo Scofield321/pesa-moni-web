@@ -572,6 +572,7 @@ other content starts here
 }
 .elearning-distance-learning{
     color: #fff;
+    text-align: center;
 }
 .elearning-distance-learning img{
     margin-top: 2rem;
@@ -679,6 +680,9 @@ h2{
         flex-direction: column;
         height: 35rem;
     }
+    .elearning-distance-learning h2{
+    margin-left: -3rem;
+}
     .elearning-distance-learning1{
     background-color: transparent;
     height: 35rem;
@@ -702,6 +706,9 @@ h2{
     .elearning-distance-learning1 img{
         width: 26.8rem;
     }
+    .elearning-distance-learning1 h2{
+    margin-left: -1rem;
+}
     .img-text1 p{
         margin-left: 5rem;
         margin-right: 2rem;
@@ -724,6 +731,9 @@ h2{
     }
     .elearning-distance-learning img, .digital-wallet img{
     width: 100%;
+}
+    .elearning-distance-learning p{
+    text-align: center;
 }
     .img-text:nth-child(1){
         order: 2;
