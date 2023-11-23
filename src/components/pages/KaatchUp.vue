@@ -76,13 +76,15 @@
                       Kaatch-Up enables you to connect with all the friends, family, and stranger just download our KaatchUp app from the playstore and the appstore, start socialising with ease, have some fun with buddies. .
                   </p>
               </div>
-              <div>
+              <div class="kaatching-up">
                 <img src="https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
               </div>
           </div>
           <!-- <h2>Keep the smile on your face with all the vibes and have fun.</h2> -->
           <div class="elearning-distance-learning">
-              <img src="https://images.pexels.com/photos/7148443/pexels-photo-7148443.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
+              <div class="vibing-up">
+                <img src="https://images.pexels.com/photos/7148443/pexels-photo-7148443.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
+              </div>
               <div class="img-text">
                   <h2>Vibes avenue</h2>
                   <p>
@@ -98,7 +100,9 @@
                       We have the most encrypted and secure communication platform, we have the End to End Encryption (E2EE), all your data is secure, just have fun and communicate all over the world with anyone at an Instant messaging.
                   </p>
               </div>
-              <img src="https://images.pexels.com/photos/5956949/pexels-photo-5956949.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
+              <div class="communicatiion">
+                <img src="https://images.pexels.com/photos/5956949/pexels-photo-5956949.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" alt="">
+              </div>
           </div>
       </section >
       <!-- <h2>All you need to know about Kaatch in one place</h2> -->
@@ -109,8 +113,8 @@
                   Most features explained in just one video, you can see all the amazing features which are in the system. Make all the fundraising, chatting, calling in just few steps, it's and end-to-end system all your data is protected and your direct messages are just between you and the person you're chatting with. 
               </p>
           </div>
-          <div>
-              <video class="guildline-vid" src="./video/kaatchup-video.mp4" width="640" height="480" controls></video>
+          <div class="guildline-vid">
+              <video  src="./video/kaatchup-video.mp4" width="640" height="480" controls></video>
           </div>
       </section>
       <my-footer></my-footer>
@@ -489,7 +493,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 29rem;
+      width: 30rem;
       margin-bottom: 3rem;
     }
     .img-text{
@@ -526,12 +530,15 @@
     .elearning-distance-learning img, .digital-wallet img{
     width: 100%;
     }
-    .fund-rasing-img img{
+    .fund-rasing-img img, .kaatching-up img, .vibing-up img, .communicatiion img, .guildline-vid video{
       max-width: 100%;
       height: auto;
       display: block; 
       margin: 0 auto;
       margin-bottom: 3rem;
+    }
+    .digital-wallet{
+      margin-top: -8rem;
     }
     .img-text:nth-child(1){
         order: 2;
