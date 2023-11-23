@@ -216,9 +216,22 @@ export default {
   background-color: whitesmoke;
   overflow: hidden;
 }
-.navbar-dark{
-  background-color: #1a84c6;
-}
+.navbar 
+{
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-brand {
+            margin-right: auto;
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+        .navbar-dark{
+       background-color: #1a84c6;
+    }
     .home-wrapper{
         background-image: linear-gradient(45deg, #f3874f, #662d91, #1a84c6, #f3874f, #f48e21);
         background-attachment: fixed;

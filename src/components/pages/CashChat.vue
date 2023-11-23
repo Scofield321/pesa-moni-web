@@ -159,7 +159,7 @@
                 <img src="https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             </div>
         </div>
-        <h2 class="modified-h2">Run any business Ads via our platform</h2>
+        <h2 class="gapped-h2">Run any business Ads via our platform</h2>
         <div class="elearning-distance-learning1">
             <img src="https://images.pexels.com/photos/5077038/pexels-photo-5077038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             <div class="img-text1">
@@ -774,7 +774,7 @@ h2{
         margin-bottom: 2rem;
     }
     .gapped-h2{
-        margin-top: -5rem;
+        margin-top: -8rem;
     }
 }
 
