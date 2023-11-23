@@ -504,6 +504,8 @@
     .img-text1{
       margin-left: -1rem;
       /* width: 45rem; */
+      width: 30rem;
+      margin-right: -1rem;
     }
     .img-text1 p{
         margin-left: 2rem;
@@ -538,7 +540,8 @@
       margin-bottom: 3rem;
     }
     .digital-wallet{
-      margin-top: -8rem;
+      margin-top: -11rem;
+      margin-bottom: 3rem;
     }
     .img-text:nth-child(1){
         order: 2;
@@ -552,10 +555,11 @@
     flex-direction: column;
     margin-top: 2rem;
     background-color: transparent;
+    margin-bottom: 3rem;
 }
     .testimonies-content{
         margin-top: -1.5rem;
-        width: 26rem;
+        width: 27rem;
         margin-left:-.9rem ;
     }
     .testimonies-content:nth-child(1){
@@ -574,10 +578,6 @@
         max-width: 100%;
         overflow: hidden;
         /* width: 25rem; */
-    }
-    video{
-        width: 100%;
-        height: auto;
     }
     .testimonies-content p{
         margin-left: 1rem;
