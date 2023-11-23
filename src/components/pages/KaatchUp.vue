@@ -508,7 +508,8 @@
       margin-right: -1rem;
     }
     .img-text1 p{
-        padding-left: 2rem;
+      width: 20rem;
+        padding-left: -2rem;
         padding-right: 1rem;
         text-align: center;
     }
