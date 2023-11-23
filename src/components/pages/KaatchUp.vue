@@ -449,6 +449,9 @@
     height: 90vh;
     margin-bottom: -2rem;
   }
+  .other-content{
+    margin-top: 10rem;
+  }
     .elearning-distance-learning, .digital-wallet{
         display: flex;
         flex-direction: column;
@@ -491,7 +494,8 @@
     }
     .img-text{
       width: 28rem;
-      margin-top: 4rem;
+      margin-right: 2rem;
+      
     }
     .img-text1{
       margin-left: -1rem;
@@ -503,7 +507,7 @@
         text-align: center;
     }
     .img-text p{
-        margin-right: 1rem;
+        margin-right: 3rem;
         text-align: center;
     }
     .img-text1 h2{
@@ -527,6 +531,7 @@
       height: auto;
       display: block; 
       margin: 0 auto;
+      margin-bottom: 3rem;
     }
     .img-text:nth-child(1){
         order: 2;
