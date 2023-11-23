@@ -477,7 +477,7 @@
       margin-bottom: 2rem;
 }
     .digital-wallet .img-text1{
-      width: 100%;
+      width: 26.9rem;
       margin-right:3rem;
       margin-top: -2rem;
 
@@ -504,13 +504,12 @@
     }
     .img-text1{
       margin-left: -1rem;
-      /* width: 45rem; */
-      width: 30rem;
+      width: 10rem;
       margin-right: -1rem;
     }
     .img-text1 p{
-        margin-left: 2rem;
-        margin-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
         text-align: center;
     }
     .img-text p{
