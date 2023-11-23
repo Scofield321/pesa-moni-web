@@ -568,6 +568,9 @@
         /* margin-left: -1.5rem; */
         text-align: center;
     }
+    .testimonies-content h2{
+      margin-left: -3rem;
+    }
     .testimonies-content:nth-child(1){
         order: 2;
     }
