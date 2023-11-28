@@ -37,10 +37,12 @@
     </div>
     <section class="supported-networks">
       <h2>These are the networks we support</h2>
-      <img src="https://1000logos.net/wp-content/uploads/2022/08/MTN-Logo-1994-.png" alt="mtn logo">
-      <img src="https://s3-ap-southeast-1.amazonaws.com/bsy/iportal/images/airtel-logo-white-text-horizontal.jpg" alt="airtel logo">
-      <img src="https://ik.imagekit.io/tp/20220202-m-pesa-logo.png" alt="mpesa logo">
-      <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/9108/bank-clipart-md.png" alt="banks">
+      <div class="imgs-of-network">
+        <img src="https://1000logos.net/wp-content/uploads/2022/08/MTN-Logo-1994-.png" alt="mtn logo">
+        <img src="https://s3-ap-southeast-1.amazonaws.com/bsy/iportal/images/airtel-logo-white-text-horizontal.jpg" alt="airtel logo">
+        <img src="https://ik.imagekit.io/tp/20220202-m-pesa-logo.png" alt="mpesa logo">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/9108/bank-clipart-md.png" alt="banks">
+      </div>
     </section>
     <my-footer></my-footer>
   </div>
@@ -125,9 +127,9 @@ export default {
   .supported-network-container{
     overflow: hidden;
 }
-  .supported-networks{
-    display: flex;
-    flex-direction: column;
+  .imgs-of-network{
+    display: grid;
+    grid-template-columns:1fr 1fr;
   }
 }
 
