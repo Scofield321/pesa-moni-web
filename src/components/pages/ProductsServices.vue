@@ -79,23 +79,6 @@
           color: #fff;
           width: 45%;
       }
-      @keyframes flash {
-          0% {
-            opacity: 1; /* Fully visible */
-          }
-          50% {
-            opacity: 0; /* Completely transparent */
-          }
-          100% {
-            opacity: 1; /* Fully visible again */
-          }
-      }
-
-      /* Apply the flashing animation to the paragraph */
-      .flashing-paragraph {
-        animation: flash 2s infinite; /* Animation name, duration, and repetition */
-        font-size: 5rem;
-      }
       .contact-us-btn{
         position: fixed;
         right: 0;

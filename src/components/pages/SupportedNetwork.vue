@@ -1,15 +1,34 @@
 <template>
   <div class="supported-network-container">
     <div class="home-wrapper">
-        <nav>
-               <h1>Supported Networks</h1>
-               <router-link to="/">Home</router-link>
-               <!-- <router-link to="/pesamoni">Pesamoni</router-link> -->
-               <router-link to="/cashchat">CashChat</router-link>
-               <router-link to="/education">Education</router-link>
-               <router-link to="/kaatchup">Kaatch-Up</router-link>
-               <router-link to="/about-us">About Us</router-link>
-            </nav>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">Career</h1>
+      <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cashchat">CashChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kaatchup">Kaatchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
             <div class="home-content">
                 <h1>Supported Networks</h1>
                 <p>For more information about supported networks, you can contact support@pesamoni.com.</p>
@@ -55,30 +74,8 @@ export default {
         height: 100vh;
         color: #fff;
     }
-    nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: absolute;
-        z-index: 99999;
-        height: 4rem;
-        margin-top: 1rem;
-        width: 100%;        
-      }
-      nav a{
-        padding: 1rem;
-        color: #fff;
-      }
-      nav a:hover{
-        color: #f3874f;
-      }
-      nav h1{
-        margin: 0 3rem 0 2rem;
-        color: #1a84c6;
-      }
       a{
       text-decoration: none;
-      padding: 4rem;
       font-size: 1.3rem;
     }
     .home-content{
@@ -122,5 +119,16 @@ export default {
         color: #1a84c6;
         text-align: center;
       }
+
+       /* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px){
+  .supported-network-container{
+    overflow: hidden;
+}
+  .supported-networks{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 </style>

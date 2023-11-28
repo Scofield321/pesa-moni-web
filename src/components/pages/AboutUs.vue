@@ -129,10 +129,10 @@
                                     </div>
                                 </div>
                                 <div class="my-card1 d-block w-100">
-                                    <img src="../../assets/pesateam/daphine2.jpg" alt="daphine sales">
+                                    <img src="../../assets/pesateam/Scofieldimg.jpeg" alt="Scofield software enginner">
                                     <div class="img-content">
-                                        <h4>Kisakye Daphine</h4>
-                                        <p>Customer Care</p>
+                                        <h4>Semujju Derick Scofield</h4>
+                                        <p>Software Developer</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,10 +159,10 @@
                                     </div>
                                 </div>
                                 <div class="my-card4 d-block w-100">
-                                    <img src="../../assets/pesateam/Scofieldimg.jpeg" alt="Scofield software enginner">
+                                    <img src="../../assets/pesateam/daphine2.jpg" alt="daphine sales">
                                     <div class="img-content">
-                                        <h4>Semujju Derick Scofield</h4>
-                                        <p>Software Developer</p>
+                                        <h4>Kisakye Daphine</h4>
+                                        <p>Customer Care</p>
                                     </div>
                                 </div>
                             </div>
