@@ -276,9 +276,9 @@ export default {
     left: -.1rem;
     top:16rem;
     height: 6rem;
+    margin-right: -1rem;
   }
   .more-home-content p{
-        padding: 1rem 2rem;
         font-size: 1rem;
     }
   .terms-conditions{
