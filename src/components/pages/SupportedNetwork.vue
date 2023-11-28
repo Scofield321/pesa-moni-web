@@ -127,9 +127,13 @@ export default {
   .supported-network-container{
     overflow: hidden;
 }
+.home-content{
+  margin-top: -6rem;
+}
 .home-content h1{
   font-size: 3rem
 }
+
   .imgs-of-network{
     display: flex;
     flex-direction: column;
