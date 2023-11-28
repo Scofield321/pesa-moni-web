@@ -79,6 +79,7 @@ export default {
       a{
       text-decoration: none;
       font-size: 1.3rem;
+      color: #fff;
     }
     .home-content{
         position: absolute;
