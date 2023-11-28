@@ -197,7 +197,7 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     height: 97vh;
-    margin-top: -12rem;
+    margin-top: -10rem;
   }
   .more-home-content{
     left: -.1rem;
