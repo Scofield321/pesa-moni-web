@@ -120,12 +120,8 @@ export default {
     margin-top: -6rem;
   }
   .home-wrapper{
-        background-image:url(https://images.pexels.com/photos/3856050/pexels-photo-3856050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 100vh;
-        color: #fff;
     }
 }
 

@@ -763,5 +763,6 @@ media queries
             display: block; 
             margin: 0 auto; 
         }
+        
 }
 </style>
