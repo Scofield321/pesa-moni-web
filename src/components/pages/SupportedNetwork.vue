@@ -128,7 +128,7 @@ export default {
     overflow: hidden;
 }
 .home-content{
-  margin-top: -6rem;
+  margin-top: -9rem;
 }
 .home-content h1{
   font-size: 3rem
