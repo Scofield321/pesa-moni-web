@@ -277,9 +277,10 @@ export default {
     top:16rem;
     height: 6rem;
   }
-  /* .more-home-content p{
-    width: 7rem;
-  } */
+  .more-home-content p{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
   .terms-conditions{
     width: 20rem;
     margin: -6rem .5rem 2rem .5rem;
