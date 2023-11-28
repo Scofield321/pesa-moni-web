@@ -133,6 +133,9 @@ export default {
     justify-content: center;
     align-items: center;
   }
+  .imgs-of-network img{
+    width: 10rem;
+  }
 }
 
 </style>
