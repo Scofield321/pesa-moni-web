@@ -100,9 +100,11 @@
         <h3>Products</h3>
         <h5>Select service of your interest:</h5>
           <!-- <router-link to="/pesamoni">PESAMONI</router-link> -->
-          <router-link to="/education">EDUCATION</router-link>
-          <router-link to="/cashchat">CASHCHAT</router-link>
-          <router-link to="/kaatchup">KAATCH-UP</router-link>
+          <div class="centered-links">
+            <router-link to="/education">EDUCATION</router-link>
+            <router-link to="/cashchat">CASHCHAT</router-link>
+            <router-link to="/kaatchup">KAATCH-UP</router-link>
+          </div>
       </section>
       <!-- new and stories starts here -->
 
@@ -689,6 +691,13 @@ media queries
       justify-content: center;
       height: 33rem;
     }
+    .centered-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3rem;
+    }
     .new-stories h3 , .new-stories h5{
       text-align: center;
     }
@@ -763,6 +772,6 @@ media queries
             display: block; 
             margin: 0 auto; 
         }
-        
+
 }
 </style>
