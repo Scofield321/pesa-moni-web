@@ -71,9 +71,9 @@ export default {
     background-color: #1a84c6;
 }
     .home-wrapper{
-        background-color: black;
+        background-image: url(https://images.pexels.com/photos/12935064/pexels-photo-12935064.jpeg?auto=compress&cs=tinysrgb&w=400);
         background-size: cover;
-        height: 100vh;
+        height: 90vh;
         color: #fff;
     }
       a{
