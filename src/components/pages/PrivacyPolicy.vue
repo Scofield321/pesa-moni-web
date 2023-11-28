@@ -97,7 +97,7 @@ export default {
 .home-wrapper{
         background-image: url(https://images.pexels.com/photos/4152513/pexels-photo-4152513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         background-size: cover;
-        height: 90vh;
+        height: 97vh;
         color: #fff;
     }
     a{
