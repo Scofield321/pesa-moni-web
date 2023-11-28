@@ -128,8 +128,10 @@ export default {
     overflow: hidden;
 }
   .imgs-of-network{
-    display: grid;
-    grid-template-columns:1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
