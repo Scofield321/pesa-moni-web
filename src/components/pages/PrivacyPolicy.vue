@@ -206,7 +206,7 @@ export default {
   }
   .policies{
     width: 20rem;
-    margin: -2rem .5rem 2rem .5rem;
+    margin: -6rem .5rem 2rem .5rem;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

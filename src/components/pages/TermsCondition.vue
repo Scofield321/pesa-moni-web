@@ -1,5 +1,5 @@
 <template>
-    <div class="terms-condition-container">
+    <div class="terms-conditions-container">
         <div class="home-wrapper">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
@@ -33,11 +33,11 @@
                 <!-- <h1>TERMS & CONDITIONS</h1> -->
             </div>
             <div class="more-home-content">
-                <p>Creating avenues for change. <br> Send and receive money easily.</p>
+                <p>Creating avenues for change.</p>
             </div>
              <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
     </div>
-    <section class="terms-condyions">
+    <section class="terms-conditions">
         <h3>TERMS AND CONDITIONS</h3>
         <p>These terms and conditions apply to and govern your access to and use of the PESAMONI website and the services available on the said website.</p>
         <p>It is important that you read and understand our terms and conditions before you accept them. They contain limitations on the scope of our obligations to you, as well as limitations on and exemptions from our liability to you in the event that you suffer loss as a result of using our services.</p>
@@ -182,7 +182,7 @@ export default {
 </script>
 
 <style scoped>
-    .terms-condition-container{
+    .terms-conditions-container{
     background-color: #fff;
     overflow: hidden;
 }
@@ -242,7 +242,7 @@ export default {
           background: rgb(241, 174, 50);
           color: #428bca;
       }
-      .terms-condyions{
+      .terms-conditions{
           background-color: #fff;
           min-height: 100vh;  
           margin: 8rem 15rem       
@@ -260,7 +260,7 @@ export default {
          /* media queries*/ 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-    .terms-condition-container{
+  .terms-condition-container{
     overflow-x:hidden;
     width: 100vw;
   }
@@ -275,77 +275,14 @@ export default {
   .more-home-content{
     left: -.1rem;
     top:16rem;
-    /* margin-bottom: -2rem; */
+    height: 6rem;
   }
-  .terms-condyions{
+  /* .more-home-content p{
+    width: 7rem;
+  } */
+  .terms-conditions{
     width: 20rem;
-    margin: -2rem .5rem 2rem .5rem;
+    margin: -6rem .5rem 2rem .5rem;
   }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (min-width: 600px) {
-  .home-wrapper{
-    background-color:#fff;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
-    margin-top: -12rem;
-  }
-  .more-home-content{
-    left: 10rem;
-    top:35rem;
-    margin-bottom: -2rem;
-    margin: auto;
-  }
-  .terms-condyions{
-    width: 45rem;
-    margin: -4rem .5rem 2rem .5rem;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .terms-condyions{
-    width: 70rem;
-    margin: -4rem .5rem 2rem .5rem;
-  }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .home-wrapper{
-        background-size: contain;
-        height: 90vh;
-        color: #fff;
-        margin-top: -3rem;
-    }
-    .more-home-content{
-    position: absolute;
-    top: 45rem;
-    left: 15rem;
-    }
-    .terms-condyions{
-          width: 55rem;
-          min-height: 100vh;  
-          margin: 6rem 5rem       
-      }
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .home-wrapper{
-        background-size: cover;
-        height: 90vh;
-        color: #fff;
-        margin-top: 3rem;
-    }
-    .more-home-content{
-    position: absolute;
-    top: 32rem;
-    left: 20rem;
-    }
-    .terms-condyions{
-          background-color: #fff;
-          min-height: 100vh;  
-          margin: 6rem 8rem       
-      }
 }
 </style>
