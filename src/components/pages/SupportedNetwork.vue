@@ -3,7 +3,7 @@
     <div class="home-wrapper">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
     <div class="container-fluid">
-        <h1 class="navbar-brand">Career</h1>
+        <h1 class="navbar-brand">Supported Networks</h1>
       <!-- <a class="navbar-brand" href="/educatiion">EDUCATION</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -128,12 +128,23 @@ export default {
   .supported-network-container{
     overflow: hidden;
 }
+.home-wrapper{
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
 .home-content{
   margin-top: -9rem;
 }
 .home-content h1{
-  font-size: 3rem
+  font-size: 3rem;
+  font-weight: 500
 }
+.home-content p{
+  font-weight: 400
+}
+
 
   .imgs-of-network{
     display: flex;

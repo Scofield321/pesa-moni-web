@@ -63,9 +63,9 @@ export default {
 }
     .home-wrapper{
         background-image: url(https://images.pexels.com/photos/3975590/pexels-photo-3975590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        min-height: 100vh;
-        min-width: 100vw;
-        position: relative;
+        background-size: cover;
+        height: 95vh;
+        color: #fff;
     }
     .home-content{
         position: absolute;
@@ -112,6 +112,12 @@ export default {
 .home-content h1{
   font-size: 3rem;
   margin-top: -6rem;
+}
+.home-wrapper{
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;  
 }
 }
 </style>

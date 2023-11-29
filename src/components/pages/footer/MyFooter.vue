@@ -19,7 +19,7 @@
                   <router-link to="/supported-network">Supported Network</router-link>
                   <router-link to="/promos">Promos</router-link>
                   <router-link to="/products-services">Products</router-link>
-                  <router-link to="/faqs">FAQs</router-link>
+                  <!-- <router-link to="/faqs">FAQs</router-link> -->
                 </div>
           </div>
           <div class="development-portal">

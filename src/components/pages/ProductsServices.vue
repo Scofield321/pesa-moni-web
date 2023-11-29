@@ -136,7 +136,6 @@
             padding: 0;
             background-position: center;
             background-repeat: no-repeat; 
-            height: 100vh;
           }
           .home-content h1{
             font-weight: 500;
