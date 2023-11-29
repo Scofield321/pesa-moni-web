@@ -207,7 +207,7 @@
         width: 23rem;
         font-size: 2.0rem;
         font-style: oblique;
-        padding: 1rem 1rem 0 1rem;
+        padding: 2rem 1rem 0 1rem;
     }
     article p{
         width: 23rem;
@@ -216,8 +216,8 @@
     article{
         margin: 6rem  8rem;
         padding-bottom: 2rem;
-        color: #fff; 
-        background-color: #1a84c6;    
+        color: #000; 
+        background-color: #fff;    
         top: 0;
         height: 28rem;
     }
@@ -228,7 +228,8 @@
         z-index: 9999900;
     }
     .colored-h2{
-      color: #fff;
+      color: #000;
+      padding-top: 1rem;
     }
     article img{
       height: 14rem;
@@ -448,6 +449,7 @@
   }
   article p{
     text-align: center;
+    color: #000;
   }
   .home-wrapper{
     height: 90vh;

@@ -31,7 +31,7 @@
   </nav>
             <div class="home-content">
                 <h1>Supported Networks</h1>
-                <p>For more information about supported networks, you can contact support@pesamoni.com.</p>
+                <p>For more information about supported networks, you can contact us at:  support@pesamoni.com.</p>
             </div>
              <button class="contact-us-btn" @click="contactUs"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</button>
     </div>
