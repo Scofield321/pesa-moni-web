@@ -243,6 +243,11 @@ export default {
         height: 100vh;
         margin-top: -9rem;      
     }
+    a{
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #fff;
+      }
     @keyframes color{
       0%{
         background-position: 0 50%;
@@ -516,7 +521,6 @@ p {
     .product-service-content img{
         width: 95%;
         height: 50vh;
-        /* background-color: #f3874f; */
         margin-left: 1rem; 
     }
       /* 
@@ -603,9 +607,6 @@ p {
     }
     .link-to-about-us{
       margin-bottom: 3rem;
-    }
-    h1{
-      display: none;
     }
       /* 
     =========================================
