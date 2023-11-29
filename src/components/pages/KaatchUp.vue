@@ -256,7 +256,6 @@
         z-index: 1000;
         opacity: 1;
         animation-delay: 0s;
-        /* bottom: 0; */
     }
     .wavy .wave.wave2{
         animation: animate2 5s linear infinite;
@@ -433,6 +432,8 @@
       margin: 1rem;
       margin-top: -2rem;
       margin-left: -1rem;
+      background-color: transparent;
+      color: #fff;
   }
     article img{
       max-width: 100%;
@@ -449,8 +450,10 @@
   }
   article p{
     text-align: center;
-    color: #000;
   }
+  .colored-h2{
+      color: #fff;
+    }
   .home-wrapper{
     height: 90vh;
     margin-bottom: -2rem;
@@ -521,7 +524,6 @@
     }
     .img-text1 h2{
       text-align: center;
-        /* padding-left: 5rem; */
     }
     .e-learnign-h2{
         margin-right: 3rem;
@@ -554,11 +556,11 @@
     }
 
     .kaatchup-testimonies {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    background-color: transparent;
-    margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        background-color: transparent;
+        margin-bottom: 3rem;
 }
     .testimonies-content{
         margin-top: -1.5rem;
@@ -567,8 +569,7 @@
     }
     .testimonies-content p{
       width: 23rem;
-        /* margin-left: -1.5rem; */
-        text-align: center;
+      text-align: center;
     }
     .testimonies-content h2{
       margin-left: -3rem;
@@ -588,7 +589,6 @@
     .guildline-vid{
         max-width: 100%;
         overflow: hidden;
-        /* width: 25rem; */
     }
     .gapped-h2{
         margin-top: -5rem;
