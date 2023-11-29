@@ -111,7 +111,7 @@
         /* extra small size */
         @media screen and (max-width: 600px){
           .home-content{
-            margin-top: -10rem;
+            margin-top: -12rem;
           }
           .home-content p{
             font-size: 1.0rem;
