@@ -114,7 +114,12 @@
             margin-top: -10rem;
           }
           .home-content p{
-        font-size: 1.0rem;
+            font-size: 1.0rem;
+            margin-left: -1rem;
+          }
+          .home-content h1{
+            font-size: 4rem;
+            margin-left: -1rem;
       }
         }
   
