@@ -120,6 +120,7 @@
           .home-content h1{
             font-size: 4rem;
             margin-left: -1rem;
+            color: red;
       }
         }
   
