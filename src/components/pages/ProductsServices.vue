@@ -138,5 +138,11 @@
             background-repeat: no-repeat; 
             height: 100vh;
           }
+          .home-content h1{
+            font-weight: 500;
+          }
+          .home-content p{
+            font-weight: 400;
+          }
         }
   </style>
