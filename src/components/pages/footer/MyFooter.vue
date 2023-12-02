@@ -27,23 +27,23 @@
             <a href="https://documenter.getpostman.com/view/10119331/2s8Z6yWYF2">Documentation</a>
             <h3>SOCIAL MEDIA</h3>
             <div class="social-media-links">
-              <a href="https://www.linkedin.com/in/your_linkedin_username" target="_blank">
+              <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Aorganization%3A10882190&keywords=PesaMoni&origin=ENTITY_SEARCH_HOME_HISTORY&sid=HMp" target="_blank">
                   <span class="linkedin-icon fab fa-linkedin-in"></span>
               </a>
-              <a href="https://www.youtube.com/user/your_youtube_username" target="_blank">
+              <!-- <a href="https://www.youtube.com/user/your_youtube_username" target="_blank">
                   <span class="youtube-icon fab fa-youtube"></span>
-              </a>
+              </a> -->
               <a href="https://wa.me/256759566348?text=Hello%20there!" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i>
               </a>
               <a href="https://www.instagram.com/pesamoniug" target="_blank">
                   <span class="instagram-icon fa fa-instagram"></span>
               </a>
-              <a href="https://twitter.com/your_twitter_username" target="_blank">
+              <!-- <a href="https://twitter.com/your_twitter_username" target="_blank">
                   <span class="twitter-icon fa fa-twitter"></span>
-              </a>
-              <a href="https://www.facebook.com/your_facebook_page" target="_blank">
+              </a> -->
+              <!-- <a href="https://www.facebook.com/your_facebook_page" target="_blank">
                   <span class="facebook-icon fab fa-facebook-f"></span>
-              </a>
+              </a> -->
             </div>
           </div>
     </div>
